@@ -1,0 +1,44 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30139.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file edgetpu.dll
+
+File Type: DLL
+
+  Section contains the following exports for edgetpu_direct_all.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          16 number of functions
+          16 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0000E150 ??0EdgeTpuManager@edgetpu@@QEAA@AEBV01@@Z
+          2    1 0000E150 ??0EdgeTpuManager@edgetpu@@QEAA@XZ
+          3    2 0000E160 ??1EdgeTpuManager@edgetpu@@MEAA@XZ
+          4    3 00008F40 ??4EdgeTpuManager@edgetpu@@QEAAAEAV01@AEBV01@@Z
+          5    4 0000E170 ??6edgetpu@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV12@W4DeviceType@0@@Z
+          6    5 0009F6F0 ??_7EdgeTpuManager@edgetpu@@6B@
+          7    6 0000E510 ?GetSingleton@EdgeTpuManager@edgetpu@@SAPEAV12@XZ
+          8    7 0000E520 ?RegisterCustomOp@edgetpu@@YAPEAUTfLiteRegistration@@XZ
+          9    8 0000EAB0 edgetpu_create_delegate
+         10    9 0000F0A0 edgetpu_free_delegate
+         11    A 0000F0B0 edgetpu_free_devices
+         12    B 0000F0C0 edgetpu_list_devices
+         13    C 0000F3A0 edgetpu_verbosity
+         14    D 0000F3C0 edgetpu_version
+         15    E 00010720 tflite_plugin_create_delegate
+         16    F 0000F0A0 tflite_plugin_destroy_delegate
+
+  Summary
+
+        8000 .data
+        6000 .pdata
+       2F000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       9A000 .text

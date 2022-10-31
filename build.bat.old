@@ -1,0 +1,9 @@
+@echo off
+set PATH=%CD%/gxx-mingw32-msys64/usr/bin;%PATH%
+set TFLITE_INC="%CD%/tensorflow_1.15/"
+set CORAL_INC="%CD%/edgetpu_runtime_20221024/libedgetpu/"
+set CORAL_LIB="%CD%/edgetpu_runtime_20221024/libedgetpu/direct/x64_windows/"
+dir %CORAL_LIB%
+g++.exe "main.cxx" -o "app.exe" -I %TFLITE_INC% -I %CORAL_INC%
+rem -L %CORAL_LIB% -l "edgetpu.dll.if.lib"
+pause
