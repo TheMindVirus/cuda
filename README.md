@@ -10,6 +10,8 @@ to an externally attached coprocessor card to free up local CPU resources for re
 ![unity](https://github.com/TheMindVirus/cuda/blob/coral/screenshots/unity.png)
 ![EdgeX](https://github.com/TheMindVirus/cuda/blob/coral/screenshots/EdgeX.png)
 
+![++moronic](https://github.com/TheMindVirus/cuda/blob/coral/screenshots/even_more_moronic_errors.png)
+
 ### EdgeX - Unity Edge Accelerator Firmware
 
 **_You know the thing where you plug morons personality cores into GLaDOS to slow her down?_**
