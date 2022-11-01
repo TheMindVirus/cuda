@@ -5,4 +5,4 @@ while True:
     print(os.uname())
 ```
 
-![screenshot](../EdgeX.png)
+![screenshot](../screenshots/EdgeX.png)
