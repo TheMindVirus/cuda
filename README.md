@@ -14,5 +14,5 @@ to an externally attached coprocessor card to free up local CPU resources for re
 
 ### EdgeX - Unity Edge Accelerator Firmware
 
-**_You know the thing where you plug morons personality cores into GLaDOS to slow her down?_**
+**_You know the thing where you plug ~~morons~~ personality cores into GLaDOS to slow her down?_**
 **_yeah...this is that..._**
