@@ -7,7 +7,7 @@ New Syntax: <<< and >>> to optionally replace python 'def' keyword
 intended for running methods on other processors attached to the system
 e.g.:
 @random(ise = "<<<", r = ">>>")
-def X():
+<<<"Pi:80", x = ">>>", y = "<<<">>> X():
     nop
     print("<<<hello>>>")
 ```
