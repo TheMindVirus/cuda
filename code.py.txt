@@ -1,0 +1,246 @@
+Code stopped by auto-reload.
+soft reboot
+
+Auto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+code.py output:
+[INFO]: __log__
+('[INFO]: __log__',)
+[INFO]: __syslog__
+[INFO]: __syslog__
+Welcome to Adafruit CircuitPython 7.0.0-rc.1!
+
+Please visit learn.adafruit.com/category/circuitpython for project guides.
+
+To list built-in modules please do `help("modules")`.
+__main__          bitops            math              sdcardio
+_bleio            board             microcontroller   sharpdisplay
+adafruit_bus_device                 builtins          micropython       storage
+adafruit_pixelbuf busio             msgpack           struct
+aesio             collections       neopixel_write    supervisor
+alarm             countio           onewireio         synthio
+analogio          digitalio         os                sys
+array             displayio         pulseio           terminalio
+atexit            errno             pwmio             time
+audiobusio        fontio            qrio              touchio
+audiocore         framebufferio     rainbowio         traceback
+audiomixer        gc                random            ulab
+audiomp3          getpass           re                usb_cdc
+audiopwmio        imagecapture      rgbmatrix         usb_hid
+binascii          io                rotaryio          usb_midi
+bitbangio         json              rp2pio            vectorio
+bitmaptools       keypad            rtc               watchdog
+Plus any modules on the filesystem
+[INFO]: len(__log__) = 0
+[INFO]: len(__syslog__) = 0
+{0: '__main__', 1: 'bitops', 2: 'math', 3: 'sdcardio', 4: '_bleio', 5: 'board', 6: 'microcontroller', 7: 'sharpdisplay', 8: 'adafruit_bus_device', 9: 'builtins', 10: 'micropython', 11: 'storage', 12: 'adafruit_pixelbuf', 13: 'busio', 14: 'msgpack', 15: 'struct', 16: 'aesio', 17: 'collections', 18: 'neopixel_write', 19: 'supervisor', 20: 'alarm', 21: 'countio', 22: 'onewireio', 23: 'synthio', 24: 'analogio', 25: 'digitalio', 26: 'os', 27: 'sys', 28: 'array', 29: 'displayio', 30: 'pulseio', 31: 'terminalio', 32: 'atexit', 33: 'errno', 34: 'pwmio', 35: 'time', 36: 'audiobusio', 37: 'fontio', 38: 'qrio', 39: 'touchio', 40: 'audiocore', 41: 'framebufferio', 42: 'rainbowio', 43: 'traceback', 44: 'audiomixer', 45: 'gc', 46: 'random', 47: 'ulab', 48: 'audiomp3', 49: 'getpass', 50: 're', 51: 'usb_cdc', 52: 'audiopwmio', 53: 'imagecapture', 54: 'rgbmatrix', 55: 'usb_hid', 56: 'binascii', 57: 'io', 58: 'rotaryio', 59: 'usb_midi', 60: 'bitbangio', 61: 'json', 62: 'rp2pio', 63: 'vectorio', 64: 'bitmaptools', 65: 'keypad', 66: 'rtc', 67: 'watchdog'}
+
+[__main__]
+['__class__', '__main__', '__name__', 'print', '__file__', 'i', 'os', 'sys', '__print__', '__log__', '__sys__', '__syslog__', 'builtin_module_names', 'mod', 'h', 'm']
+
+[bitops]
+['__class__', '__name__', 'bit_transpose']
+
+[math]
+['__class__', '__name__', 'pow', 'acos', 'asin', 'atan', 'atan2', 'ceil', 'copysign', 'cos', 'degrees', 'e', 'exp', 'fabs', 'floor', 'fmod', 'frexp', 'isfinite', 'isinf', 'isnan', 'ldexp', 'log', 'modf', 'pi', 'radians', 'sin', 'sqrt', 'tan', 'trunc']
+
+[sdcardio]
+['__class__', '__name__', 'SDCard']
+
+[_bleio]
+['__class__', '__init__', '__name__', 'Adapter', 'Address', 'Attribute', 'BluetoothError', 'Characteristic', 'CharacteristicBuffer', 'Connection', 'Descriptor', 'PacketBuffer', 'RoleError', 'ScanEntry', 'ScanResults', 'SecurityError', 'Service', 'UUID', 'adapter', 'set_adapter']
+
+[board]
+['__class__', 'BUTTON', 'DISPLAY', 'ENCODER_A', 'ENCODER_B', 'ENCODER_SWITCH', 'I2C', 'KEY1', 'KEY10', 'KEY11', 'KEY12', 'KEY2', 'KEY3', 'KEY4', 'KEY5', 'KEY6', 'KEY7', 'KEY8', 'KEY9', 'LED', 'MISO', 'MOSI', 'NEOPIXEL', 'OLED_CS', 'OLED_DC', 'OLED_RESET', 'ROTA', 'ROTB', 'SCK', 'SCL', 'SDA', 'SPEAKER', 'SPEAKER_ENABLE', 'SPI', 'board_id']
+
+[microcontroller]
+['__class__', '__name__', 'Pin', 'Processor', 'ResetReason', 'RunMode', 'cpu', 'cpus', 'delay_us', 'disable_interrupts', 'enable_interrupts', 'nvm', 'on_next_reset', 'pin', 'reset', 'watchdog']
+
+[sharpdisplay]
+['__class__', '__name__', 'SharpMemoryFramebuffer']
+
+[adafruit_bus_device]
+['__class__', '__name__', 'i2c_device', 'spi_device']
+
+[builtins]
+['__class__', '__name__', 'ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException', 'EOFError', 'Ellipsis', 'Exception', 'GeneratorExit', 'ImportError', 'IndentationError', 'IndexError', 'KeyError', 'KeyboardInterrupt', 'LookupError', 'MemoryError', 'NameError', 'NotImplementedError', 'OSError', 'OverflowError', 'RuntimeError', 'StopIteration', 'SyntaxError', 'SystemExit', 'TypeError', 'ValueError', 'ZeroDivisionError', 'abs', 'all', 'any', 'bool', 'bytearray', 'bytes', 'callable', 'chr', 'classmethod', 'dict', 'dir', 'divmod', 'eval', 'exec', 'getattr', 'globals', 'hasattr', 'hash', 'id', 'int', 'isinstance', 'issubclass', 'iter', 'len', 'list', 'locals', 'map', 'next', 'object', 'open', 'ord', 'pow', 'print', 'range', 'repr', 'round', 'set', 'setattr', 'sorted', 'staticmethod', 'str', 'sum', 'super', 'tuple', 'type', 'zip', '__build_class__', '__import__', '__repl_print__', 'BrokenPipeError', 'ConnectionError', 'MpyError', 'ReloadException', 'StopAsyncIteration', 'TimeoutError', 'UnicodeError', 'bin', 'complex', 'delattr', 'enumerate', 'filter', 'float', 'frozenset', 'help', 'hex', 'input', 'max', 'memoryview', 'min', 'oct', 'property', 'reversed', 'slice']
+
+[micropython]
+['__class__', '__name__', 'const', 'heap_lock', 'heap_unlock', 'kbd_intr', 'opt_level', 'pystack_use']
+
+[storage]
+['__class__', '__name__', 'VfsFat', 'disable_usb_drive', 'enable_usb_drive', 'erase_filesystem', 'getmount', 'mount', 'remount', 'umount']
+
+[adafruit_pixelbuf]
+['__class__', '__name__', 'PixelBuf']
+
+[busio]
+['__class__', '__name__', 'I2C', 'OneWire', 'SPI', 'UART']
+
+[msgpack]
+['__class__', '__name__', 'ExtType', 'pack', 'unpack']
+
+[struct]
+['__class__', '__name__', 'calcsize', 'pack', 'pack_into', 'unpack', 'unpack_from']
+
+[aesio]
+['__class__', '__name__', 'AES', 'MODE_CBC', 'MODE_CTR', 'MODE_ECB', 'block_size', 'key_size']
+
+[collections]
+['__class__', '__name__', 'OrderedDict', 'namedtuple']
+
+[neopixel_write]
+['__class__', '__name__', 'neopixel_write']
+
+[supervisor]
+['__class__', '__name__', 'RunReason', 'disable_autoreload', 'disable_ble_workflow', 'enable_autoreload', 'get_previous_traceback', 'reload', 'runtime', 'set_next_code_file', 'set_next_stack_limit', 'set_rgb_status_brightness', 'ticks_ms']
+
+[alarm]
+['__class__', '__name__', 'SleepMemory', 'exit_and_deep_sleep_until_alarms', 'light_sleep_until_alarms', 'pin', 'sleep_memory', 'time', 'touch', 'wake_alarm']
+
+[countio]
+['__class__', '__name__', 'Counter']
+
+[onewireio]
+['__class__', '__name__', 'OneWire']
+
+[synthio]
+['__class__', '__name__', 'MidiTrack', 'from_file']
+
+[analogio]
+['__class__', '__name__', 'AnalogIn', 'AnalogOut']
+
+[digitalio]
+['__class__', '__name__', 'DigitalInOut', 'Direction', 'DriveMode', 'Pull']
+
+[os]
+['__class__', '__name__', 'remove', 'sep', 'chdir', 'getcwd', 'listdir', 'mkdir', 'rename', 'rmdir', 'stat', 'statvfs', 'sync', 'uname', 'unlink', 'urandom']
+
+[sys]
+['__class__', '__name__', 'argv', 'byteorder', 'exit', 'implementation', 'maxsize', 'modules', 'path', 'platform', 'stderr', 'stdin', 'stdout', 'version', 'version_info']
+
+[array]
+['__class__', '__name__', 'array']
+
+[displayio]
+['__class__', '__name__', 'Bitmap', 'ColorConverter', 'Colorspace', 'Display', 'EPaperDisplay', 'FourWire', 'Group', 'I2CDisplay', 'OnDiskBitmap', 'Palette', 'ParallelBus', 'Shape', 'TileGrid', 'release_displays']
+
+[pulseio]
+['__class__', '__name__', 'PulseIn', 'PulseOut']
+
+[terminalio]
+['__class__', '__name__', 'FONT', 'Terminal']
+
+[atexit]
+['__class__', '__name__', 'register', 'unregister']
+
+[errno]
+['__class__', '__name__', 'EACCES', 'EADDRINUSE', 'EAGAIN', 'EALREADY', 'EBADF', 'ECONNABORTED', 'ECONNREFUSED', 'ECONNRESET', 'EEXIST', 'EHOSTUNREACH', 'EINPROGRESS', 'EINVAL', 'EIO', 'EISDIR', 'ENOBUFS', 'ENODEV', 'ENOENT', 'ENOMEM', 'ENOTCONN', 'EOPNOTSUPP', 'EPERM', 'ETIMEDOUT', 'errorcode']
+
+[pwmio]
+['__class__', '__name__', 'PWMOut']
+
+[time]
+['__class__', '__name__', 'localtime', 'mktime', 'monotonic', 'monotonic_ns', 'sleep', 'struct_time', 'time']
+
+[audiobusio]
+['__class__', '__name__', 'I2SOut', 'PDMIn']
+
+[fontio]
+['__class__', '__name__', 'BuiltinFont', 'Glyph']
+
+[qrio]
+['__class__', '__name__', 'PixelPolicy', 'QRDecoder', 'QRInfo']
+
+[touchio]
+['__class__', '__name__', 'TouchIn']
+
+[audiocore]
+['__class__', '__name__', 'RawSample', 'WaveFile']
+
+[framebufferio]
+['__class__', '__name__', 'FramebufferDisplay']
+
+[rainbowio]
+['__class__', '__name__', 'colorwheel']
+
+[traceback]
+['__class__', '__name__', 'format_exception', 'print_exception']
+
+[audiomixer]
+['__class__', '__name__', 'Mixer']
+
+[gc]
+['__class__', '__name__', 'collect', 'disable', 'enable', 'isenabled', 'mem_alloc', 'mem_free']
+
+[random]
+['__class__', '__name__', 'choice', 'getrandbits', 'randint', 'random', 'randrange', 'seed', 'uniform']
+
+[ulab]
+['__class__', '__name__', '__version__', 'dtype', 'numpy', 'scipy', 'utils']
+
+[audiomp3]
+['__class__', '__name__', 'MP3Decoder']
+
+[getpass]
+['__class__', '__name__', 'getpass']
+
+[re]
+['__class__', '__name__', 'compile', 'match', 'search', 'sub']
+
+[usb_cdc]
+['__class__', '__name__', 'Serial', 'console', 'data', 'disable', 'enable']
+
+[audiopwmio]
+['__class__', '__name__', 'PWMAudioOut']
+
+[imagecapture]
+['__class__', '__name__', 'ParallelImageCapture']
+
+[rgbmatrix]
+['__class__', '__name__', 'RGBMatrix']
+
+[usb_hid]
+['__class__', '__name__', 'Device', 'devices', 'disable', 'enable']
+
+[binascii]
+['__class__', '__name__', 'a2b_base64', 'b2a_base64', 'hexlify', 'unhexlify']
+
+[io]
+['__class__', '__name__', 'open', 'BytesIO', 'FileIO', 'StringIO', 'TextIOWrapper']
+
+[rotaryio]
+['__class__', '__name__', 'IncrementalEncoder']
+
+[usb_midi]
+['__class__', '__name__', 'PortIn', 'PortOut', 'disable', 'enable', 'ports']
+
+[bitbangio]
+['__class__', '__name__', 'I2C', 'OneWire', 'SPI']
+
+[json]
+['__class__', '__name__', 'dump', 'dumps', 'load', 'loads']
+
+[rp2pio]
+['__class__', '__name__', 'StateMachine', 'pins_are_sequential']
+
+[vectorio]
+['__class__', '__name__', 'Circle', 'Polygon', 'Rectangle']
+
+[bitmaptools]
+['__class__', '__name__', 'readinto', 'arrayblit', 'boundary_fill', 'draw_line', 'fill_region', 'rotozoom']
+
+[keypad]
+['__class__', '__name__', 'Event', 'EventQueue', 'KeyMatrix', 'Keys', 'ShiftRegisterKeys']
+
+[rtc]
+['__class__', '__name__', 'RTC', 'set_time_source']
+
+[watchdog]
+['__class__', '__name__', 'WatchDogMode', 'WatchDogTimeout']
+
+invalid syntax
+
+Code done running.
+
+Press any key to enter the REPL. Use CTRL-D to reload.
+
