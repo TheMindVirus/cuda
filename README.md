@@ -49,3 +49,5 @@ Most of this was written on a phone! (apart from the actual cuda test implementa
 
 ## Spherical Harmonics + Random Distortion = Grub Texture
 ![screenshot](https://github.com/TheMindVirus/cuda/blob/cpython/harmonicdistortion.png)
+
+https://github.com/TheMindVirus/cuda/blob/07d534cadce32fb3bc6928af424495b038bdaa7a/code.py.swizzle#L25
