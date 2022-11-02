@@ -1,0 +1,44 @@
+def method(*args, **kwargs):
+    print(args, kwargs)
+    return args[0] if len(args) else method
+
+class test1:
+    @method
+    def __init__(self, *args):
+        print(args)
+
+class test2:
+    @method(something = 1)
+    def test3(self):
+        print("hello")
+
+A = method
+B = type("B", (object,), {"A": A})
+C = B().A(0, z = 1, x = 2)
+print(C)
+
+test1()
+a = test2()
+a.test3()
+
+# Decorators cause 2 very bad things:
+# 1) Deprecation - missing implementations
+# 2) Complexity - things that don't compile
+
+""" # Please note that this output is completely different compared to the cpython version!
+Adafruit CircuitPython 7.0.0-rc.1 on 2021-09-02; Adafruit Macropad RP2040 with rp2040
+>>>
+soft reboot
+
+Auto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+code.py output:
+(<function __init__ at 0x200088e0>,) {}
+() {'something': 1}
+(<function test3 at 0x20008970>,) {}
+(<B object at 0x200089e0>, 0) {'x': 2, 'z': 1}
+<B object at 0x200089e0>
+()
+hello
+
+Code done running.
+"""

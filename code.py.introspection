@@ -1,0 +1,99 @@
+#import ast
+#import inspect
+
+#rp2 = def # This doesn't work normally
+
+def replace_code(code):
+    tokens = code.split("\"")
+
+code = \
+"""
+def.rp2 something(data):
+    print("[INFO]: " + str(data) + " [def.rp2]")
+"""
+
+code = code.replace("def.rp2", "@rp2statemachineblablabla\ndef")
+print(code)
+
+#asm = ast.parse(code)
+#dis = ast.unparse(asm)
+#print(ast.dump(asm))
+#print(dis)
+
+code = code.replace("@rp2statemachineblablabla\ndef", "def")
+exec(code)
+something("RP2")
+
+"""
+@rp2statemachineblablabla
+def something(data):
+    print("[INFO]: " + str(data) + " [@rp2statemachineblablabla
+def]")
+
+[INFO]: RP2 [def]
+"""
+
+class Storage:
+    pass
+
+Storage()
+print(__name__)
+
+def \
+Method(*args):
+    #Method.hello()
+    def \
+        hello():
+        print("hello" + str(args)) #hello.__name__ + str(args))
+    hello()
+    print("Method" + str(args)) #print(Method.__name__ + str(args))
+    if len(args) > 0:
+        print(args[0]) #print(args[0].__class__()) # this is inaccurate...
+        return args[0]
+    #return None #args[0] # This is how deprecation functions.
+    return None
+
+Method()
+
+class Template:
+    @Method
+    def \
+        __init__(self, *args):
+        """
+        calls = ""
+        stack = inspect.stack()
+        for i in range(len(stack) -1, -1, -1):
+            calls += stack[i].function
+            if i > 0:
+                calls += " -> "
+        print(calls)
+        """
+        print("Template.__init__" + str(args)) #print(self.__init__.__qualname__ + str(args))
+        #Any way to get self.__init__ dynamically?
+        #Especially for full stack traces like WinDbg for Windows
+Template()
+
+"""
+Adafruit CircuitPython 7.0.0-rc.1 on 2021-09-02; Adafruit Macropad RP2040 with rp2040
+>>>
+soft reboot
+
+Auto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+code.py output:
+
+@rp2statemachineblablabla
+def something(data):
+    print("[INFO]: " + str(data) + " [@rp2statemachineblablabla
+def]")
+
+[INFO]: RP2 [def]
+__main__
+hello()
+Method()
+hello(<function __init__ at 0x20008cf0>,)
+Method(<function __init__ at 0x20008cf0>,)
+<function __init__ at 0x20008cf0>
+Template.__init__()
+
+Code done running.
+"""

@@ -1,0 +1,51 @@
+c = 'print(x)\nx+=1'
+
+def wrap(code, x):
+    #exec(code) #exec(compile(code, "wrap", "exec")) # This won't work, as it didn't in the original
+    return x
+
+n = lambda x: wrap(c, x)
+print(n(5))
+
+def override(__code__, this, \
+    *__register__, **__registry__):
+    print(this)
+    for reg in __register__:
+        print(reg)
+    for key in __registry__:
+        print(key, __registry__[key])
+        exec("{}={}".format(key, \
+            __registry__[key]))
+    exec(__code__) #exec(compile(__code__, "<string>", "exec"))
+    return __result__
+
+A = 'global __result__; \
+    __result__ = x + 1'
+B = type("B", (object,), \
+    {"A": lambda self, *args, **kwargs: \
+    override(A, self, *args, **kwargs)})
+C = B().A(0, z = 1, x = 2)
+print(C)
+
+# Just don't use decorators.
+# If you really need to use them,
+# try overriding the def keyword instead.
+# Also try swapping out def override()
+# for one that exec's on a remote system.
+
+"""
+Adafruit CircuitPython 7.0.0-rc.1 on 2021-09-02; Adafruit Macropad RP2040 with rp2040
+>>>
+soft reboot
+
+Auto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+code.py output:
+5
+<B object at 0x20008940>
+0
+z 1
+x 2
+3
+
+Code done running.
+"""
