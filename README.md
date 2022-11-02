@@ -37,7 +37,7 @@ You can probably even point it to a Web URL:
 
 The equivalent using decorators (I personally oppose this way of writing it):
 
-@IRL(address = "localhost:12345")
+@IRL(address = { "address": "localhost:12345" })
 def X():
     calc = 2 + 2
     print(str(calc))
