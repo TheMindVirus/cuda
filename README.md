@@ -8,4 +8,4 @@ intended for running methods on other processors attached to the system
 ```
 
 ## Spherical Harmonics + Random Distortion = Grub Texture
-![screenshot](https://github.com/TheMindVirus/blob/cpython/harmonicdistortion.png)
+![screenshot](https://github.com/TheMindVirus/cuda/blob/cpython/harmonicdistortion.png)
