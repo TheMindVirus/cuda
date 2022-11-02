@@ -1,0 +1,75 @@
+import adafruit_pioasm, rp2pio, board, time
+import ulab.numpy as np
+
+CUDA = \
+"""
+.program CUDA
+loop:
+    set x 0
+    set y 0
+    pull
+    mov osr x
+    pull
+    mov osr y
+    set x 1
+    mov x isr
+    push
+    out pins 1
+    jmp loop
+    ;void mul(float* a, float* b, float* c); Microsoft Windows, NVidia Marbles?
+    ;c[i] = a[i] * b[i]; Comments being in the inner loop slows it down
+"""
+
+CUDA = \
+"""
+.program CUDA
+loop:
+    pull
+    mov isr x
+    pull
+    mov isr y
+    ;out x y
+    ;mov y osr ; These didn't seem to work, this comment is slowing it down
+    mov isr osr
+    push
+    out pins 1
+    jmp loop
+    ;void mul(float* a, float* b, float* c); Microsoft Windows, NVidia Marbles?
+    ;c[i] = a[i] * b[i]; Comments being in the inner loop slows it down
+    ; Graphics Processor Input Output
+"""
+
+assembled = adafruit_pioasm.assemble(CUDA)
+
+GPU = rp2pio.StateMachine(assembled, frequency = 2000,
+    first_out_pin = board.LED,)
+print("[INFO]: Frequency: {}".format(GPU.frequency))
+
+while True:
+    a = np.array((1, 2, 3), dtype = np.uint8)
+    b = np.array((4, 5, 6), dtype = np.uint8)
+    c = np.array([0, 0, 0], dtype = np.uint8)
+    GPU.write(bytes(a))
+    time.sleep(0.5)
+    GPU.write(bytes(b))
+    time.sleep(0.5)
+    GPU.readinto(c)
+    print(c)
+
+""" # This doesn't do multiplication, instead it does bit swizzling
+Adafruit CircuitPython 7.0.0-rc.1 on 2021-09-02; Adafruit Macropad RP2040 with rp2040
+>>>
+soft reboot
+
+Auto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+code.py output:
+[INFO]: Frequency: 2000
+array([2, 4, 6], dtype=uint8)
+array([2, 4, 6], dtype=uint8)
+array([2, 4, 6], dtype=uint8)
+Traceback (most recent call last):
+  File "code.py", line 53, in <module>
+KeyboardInterrupt:
+
+Code done running.
+"""
