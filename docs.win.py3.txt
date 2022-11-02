@@ -1,0 +1,2117 @@
+[_abc]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', '_abc_init', '_abc_instancecheck', '_abc_register', '_abc_subclasscheck', '_get_dump', '_reset_caches', '_reset_registry', 'get_cache_token']
+
+Module contains faster C implementation of abc.ABCMeta
+
+[_ast]
+['AST', 'Add', 'And', 'AnnAssign', 'Assert', 'Assign', 'AsyncFor', 'AsyncFunctionDef', 'AsyncWith', 'Attribute', 'AugAssign', 'Await', 'BinOp', 'BitAnd', 'BitOr', 'BitXor', 'BoolOp', 'Break', 'Call', 'ClassDef', 'Compare', 'Constant', 'Continue', 'Del', 'Delete', 'Dict', 'DictComp', 'Div', 'Eq', 'ExceptHandler', 'Expr', 'Expression', 'FloorDiv', 'For', 'FormattedValue', 'FunctionDef', 'FunctionType', 'GeneratorExp', 'Global', 'Gt', 'GtE', 'If', 'IfExp', 'Import', 'ImportFrom', 'In', 'Interactive', 'Invert', 'Is', 'IsNot', 'JoinedStr', 'LShift', 'Lambda', 'List', 'ListComp', 'Load', 'Lt', 'LtE', 'MatMult', 'Match', 'MatchAs', 'MatchClass', 'MatchMapping', 'MatchOr', 'MatchSequence', 'MatchSingleton', 'MatchStar', 'MatchValue', 'Mod', 'Module', 'Mult', 'Name', 'NamedExpr', 'Nonlocal', 'Not', 'NotEq', 'NotIn', 'Or', 'Pass', 'Pow', 'PyCF_ALLOW_TOP_LEVEL_AWAIT', 'PyCF_ONLY_AST', 'PyCF_TYPE_COMMENTS', 'RShift', 'Raise', 'Return', 'Set', 'SetComp', 'Slice', 'Starred', 'Store', 'Sub', 'Subscript', 'Try', 'Tuple', 'TypeIgnore', 'UAdd', 'USub', 'UnaryOp', 'While', 'With', 'Yield', 'YieldFrom', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'alias', 'arg', 'arguments', 'boolop', 'cmpop', 'comprehension', 'excepthandler', 'expr', 'expr_context', 'keyword', 'match_case', 'mod', 'operator', 'pattern', 'stmt', 'type_ignore', 'unaryop', 'withitem']
+
+None
+
+[_bisect]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'bisect_left', 'bisect_right', 'insort_left', 'insort_right']
+
+Bisection algorithms.
+
+This module provides support for maintaining a list in sorted order without
+having to sort the list after each insertion. For long lists of items with
+expensive comparison operations, this can be an improvement over the more
+common approach.
+
+
+[_blake2]
+['BLAKE2B_MAX_DIGEST_SIZE', 'BLAKE2B_MAX_KEY_SIZE', 'BLAKE2B_PERSON_SIZE', 'BLAKE2B_SALT_SIZE', 'BLAKE2S_MAX_DIGEST_SIZE', 'BLAKE2S_MAX_KEY_SIZE', 'BLAKE2S_PERSON_SIZE', 'BLAKE2S_SALT_SIZE', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'blake2b', 'blake2s']
+
+_blake2b provides BLAKE2b for hashlib
+
+
+[_codecs]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'ascii_decode', 'ascii_encode', 'charmap_build', 'charmap_decode', 'charmap_encode', 'code_page_decode', 'code_page_encode', 'decode', 'encode', 'escape_decode', 'escape_encode', 'latin_1_decode', 'latin_1_encode', 'lookup', 'lookup_error', 'mbcs_decode', 'mbcs_encode', 'oem_decode', 'oem_encode', 'raw_unicode_escape_decode', 'raw_unicode_escape_encode', 'readbuffer_encode', 'register', 'register_error', 'unicode_escape_decode', 'unicode_escape_encode', 'unregister', 'utf_16_be_decode', 'utf_16_be_encode', 'utf_16_decode', 'utf_16_encode', 'utf_16_ex_decode', 'utf_16_le_decode', 'utf_16_le_encode', 'utf_32_be_decode', 'utf_32_be_encode', 'utf_32_decode', 'utf_32_encode', 'utf_32_ex_decode', 'utf_32_le_decode', 'utf_32_le_encode', 'utf_7_decode', 'utf_7_encode', 'utf_8_decode', 'utf_8_encode']
+
+None
+
+[_codecs_cn]
+['__doc__', '__loader__', '__map_gb18030ext', '__map_gb2312', '__map_gbcommon', '__map_gbkext', '__name__', '__package__', '__spec__', 'getcodec']
+
+None
+
+[_codecs_hk]
+['__doc__', '__loader__', '__map_big5hkscs', '__map_big5hkscs_bmp', '__map_big5hkscs_nonbmp', '__name__', '__package__', '__spec__', 'getcodec']
+
+None
+
+[_codecs_iso2022]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'getcodec']
+
+None
+
+[_codecs_jp]
+['__doc__', '__loader__', '__map_cp932ext', '__map_jisx0208', '__map_jisx0212', '__map_jisx0213_1_bmp', '__map_jisx0213_1_emp', '__map_jisx0213_2_bmp', '__map_jisx0213_2_emp', '__map_jisx0213_bmp', '__map_jisx0213_emp', '__map_jisx0213_pair', '__map_jisxcommon', '__name__', '__package__', '__spec__', 'getcodec']
+
+None
+
+[_codecs_kr]
+['__doc__', '__loader__', '__map_cp949', '__map_cp949ext', '__map_ksx1001', '__name__', '__package__', '__spec__', 'getcodec']
+
+None
+
+[_codecs_tw]
+['__doc__', '__loader__', '__map_big5', '__map_cp950ext', '__name__', '__package__', '__spec__', 'getcodec']
+
+None
+
+[_collections]
+['OrderedDict', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_count_elements', '_deque_iterator', '_deque_reverse_iterator', '_tuplegetter', 'defaultdict', 'deque']
+
+High performance data structures.
+- deque:        ordered collection accessible from endpoints only
+- defaultdict:  dict subclass with a default value factory
+
+
+[_contextvars]
+['Context', 'ContextVar', 'Token', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'copy_context']
+
+Context Variables
+
+[_csv]
+['Dialect', 'Error', 'QUOTE_ALL', 'QUOTE_MINIMAL', 'QUOTE_NONE', 'QUOTE_NONNUMERIC', 'Reader', 'Writer', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '__version__', '_dialects', 'field_size_limit', 'get_dialect', 'list_dialects', 'reader', 'register_dialect', 'unregister_dialect', 'writer']
+
+CSV parsing and writing.
+
+This module provides classes that assist in the reading and writing
+of Comma Separated Value (CSV) files, and implements the interface
+described by PEP 305.  Although many CSV files are simple to parse,
+the format is not formally defined by a stable specification and
+is subtle enough that parsing lines of a CSV file with something
+like line.split(",") is bound to fail.  The module supports three
+basic APIs: reading, writing, and registration of dialects.
+
+
+DIALECT REGISTRATION:
+
+Readers and writers support a dialect argument, which is a convenient
+handle on a group of settings.  When the dialect argument is a string,
+it identifies one of the dialects previously registered with the module.
+If it is a class or instance, the attributes of the argument are used as
+the settings for the reader or writer:
+
+    class excel:
+        delimiter = ','
+        quotechar = '"'
+        escapechar = None
+        doublequote = True
+        skipinitialspace = False
+        lineterminator = '\r\n'
+        quoting = QUOTE_MINIMAL
+
+SETTINGS:
+
+    * quotechar - specifies a one-character string to use as the
+        quoting character.  It defaults to '"'.
+    * delimiter - specifies a one-character string to use as the
+        field separator.  It defaults to ','.
+    * skipinitialspace - specifies how to interpret whitespace which
+        immediately follows a delimiter.  It defaults to False, which
+        means that whitespace immediately following a delimiter is part
+        of the following field.
+    * lineterminator -  specifies the character sequence which should
+        terminate rows.
+    * quoting - controls when quotes should be generated by the writer.
+        It can take on any of the following module constants:
+
+        csv.QUOTE_MINIMAL means only when required, for example, when a
+            field contains either the quotechar or the delimiter
+        csv.QUOTE_ALL means that quotes are always placed around fields.
+        csv.QUOTE_NONNUMERIC means that quotes are always placed around
+            fields which do not parse as integers or floating point
+            numbers.
+        csv.QUOTE_NONE means that quotes are never placed around fields.
+    * escapechar - specifies a one-character string used to escape
+        the delimiter when quoting is set to QUOTE_NONE.
+    * doublequote - controls the handling of quotes inside fields.  When
+        True, two consecutive quotes are interpreted as one during read,
+        and when writing, each quote character embedded in the data is
+        written as two quotes
+
+
+[_datetime]
+['MAXYEAR', 'MINYEAR', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'date', 'datetime', 'datetime_CAPI', 'time', 'timedelta', 'timezone', 'tzinfo']
+
+Fast implementation of the datetime type.
+
+[_functools]
+['KeyWrapper', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_lru_cache_wrapper', 'cmp_to_key', 'partial', 'reduce']
+
+Tools that operate on functions.
+
+[_heapq]
+['__about__', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_heapify_max', '_heappop_max', '_heapreplace_max', 'heapify', 'heappop', 'heappush', 'heappushpop', 'heapreplace']
+
+Heap queue algorithm (a.k.a. priority queue).
+
+Heaps are arrays for which a[k] <= a[2*k+1] and a[k] <= a[2*k+2] for
+all k, counting elements from 0.  For the sake of comparison,
+non-existing elements are considered to be infinite.  The interesting
+property of a heap is that a[0] is always its smallest element.
+
+Usage:
+
+heap = []            # creates an empty heap
+heappush(heap, item) # pushes a new item on the heap
+item = heappop(heap) # pops the smallest item from the heap
+item = heap[0]       # smallest item on the heap without popping it
+heapify(x)           # transforms list into a heap, in-place, in linear time
+item = heapreplace(heap, item) # pops and returns smallest item, and adds
+                               # new item; the heap size is unchanged
+
+Our API differs from textbook heap algorithms as follows:
+
+- We use 0-based indexing.  This makes the relationship between the
+  index for a node and the indexes for its children slightly less
+  obvious, but is more suitable since Python uses 0-based indexing.
+
+- Our heappop() method returns the smallest item, not the largest.
+
+These two make it possible to view the heap as a regular Python list
+without surprises: heap[0] is the smallest item, and heap.sort()
+maintains the heap invariant!
+
+
+[_imp]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', '_fix_co_filename', 'acquire_lock', 'check_hash_based_pycs', 'create_builtin', 'create_dynamic', 'exec_builtin', 'exec_dynamic', 'extension_suffixes', 'get_frozen_object', 'init_frozen', 'is_builtin', 'is_frozen', 'is_frozen_package', 'lock_held', 'release_lock', 'source_hash']
+
+(Extremely) low-level import machinery bits as used by importlib and imp.
+
+[_io]
+['BlockingIOError', 'BufferedRWPair', 'BufferedRandom', 'BufferedReader', 'BufferedWriter', 'BytesIO', 'DEFAULT_BUFFER_SIZE', 'FileIO', 'IncrementalNewlineDecoder', 'StringIO', 'TextIOWrapper', 'UnsupportedOperation', '_BufferedIOBase', '_IOBase', '_RawIOBase', '_TextIOBase', '_WindowsConsoleIO', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'open', 'open_code', 'text_encoding']
+
+The io module provides the Python interfaces to stream handling. The
+builtin open function is defined in this module.
+
+At the top of the I/O hierarchy is the abstract base class IOBase. It
+defines the basic interface to a stream. Note, however, that there is no
+separation between reading and writing to streams; implementations are
+allowed to raise an OSError if they do not support a given operation.
+
+Extending IOBase is RawIOBase which deals simply with the reading and
+writing of raw bytes to a stream. FileIO subclasses RawIOBase to provide
+an interface to OS files.
+
+BufferedIOBase deals with buffering on a raw byte stream (RawIOBase). Its
+subclasses, BufferedWriter, BufferedReader, and BufferedRWPair buffer
+streams that are readable, writable, and both respectively.
+BufferedRandom provides a buffered interface to random access
+streams. BytesIO is a simple stream of in-memory bytes.
+
+Another IOBase subclass, TextIOBase, deals with the encoding and decoding
+of streams into text. TextIOWrapper, which extends it, is a buffered text
+interface to a buffered raw stream (`BufferedIOBase`). Finally, StringIO
+is an in-memory stream for text.
+
+Argument names are not part of the specification, and only the arguments
+of open() are intended to be used as keyword arguments.
+
+data:
+
+DEFAULT_BUFFER_SIZE
+
+   An int containing the default buffer size used by the module's buffered
+   I/O classes. open() uses the file's blksize (as obtained by os.stat) if
+   possible.
+
+
+[_json]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'encode_basestring', 'encode_basestring_ascii', 'make_encoder', 'make_scanner', 'scanstring']
+
+json speedups
+
+
+[_locale]
+['CHAR_MAX', 'Error', 'LC_ALL', 'LC_COLLATE', 'LC_CTYPE', 'LC_MONETARY', 'LC_NUMERIC', 'LC_TIME', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_get_locale_encoding', '_getdefaultlocale', 'localeconv', 'setlocale', 'strcoll', 'strxfrm']
+
+Support for POSIX locales.
+
+[_lsprof]
+['Profiler', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'profiler_entry', 'profiler_subentry']
+
+Fast profiler
+
+[_md5]
+['MD5Type', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'md5']
+
+None
+
+[_multibytecodec]
+['MultibyteIncrementalDecoder', 'MultibyteIncrementalEncoder', 'MultibyteStreamReader', 'MultibyteStreamWriter', '__create_codec', '__doc__', '__loader__', '__name__', '__package__', '__spec__']
+
+None
+
+[_opcode]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'stack_effect']
+
+Opcode support module.
+
+[_operator]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', '_compare_digest', 'abs', 'add', 'and_', 'attrgetter', 'concat', 'contains', 'countOf', 'delitem', 'eq', 'floordiv', 'ge', 'getitem', 'gt', 'iadd', 'iand', 'iconcat', 'ifloordiv', 'ilshift', 'imatmul', 'imod', 'imul', 'index', 'indexOf', 'inv', 'invert', 'ior', 'ipow', 'irshift', 'is_', 'is_not', 'isub', 'itemgetter', 'itruediv', 'ixor', 'le', 'length_hint', 'lshift', 'lt', 'matmul', 'methodcaller', 'mod', 'mul', 'ne', 'neg', 'not_', 'or_', 'pos', 'pow', 'rshift', 'setitem', 'sub', 'truediv', 'truth', 'xor']
+
+Operator interface.
+
+This module exports a set of functions implemented in C corresponding
+to the intrinsic operators of Python.  For example, operator.add(x, y)
+is equivalent to the expression x+y.  The function names are those
+used for special methods; variants without leading and trailing
+'__' are also provided for convenience.
+
+[_pickle]
+['PickleBuffer', 'PickleError', 'Pickler', 'PicklingError', 'Unpickler', 'UnpicklingError', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'dump', 'dumps', 'load', 'loads']
+
+Optimized C implementation for the Python pickle module.
+
+[_random]
+['Random', '__doc__', '__loader__', '__name__', '__package__', '__spec__']
+
+Module implements the Mersenne Twister random number generator.
+
+[_sha1]
+['SHA1Type', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'sha1']
+
+None
+
+[_sha256]
+['SHA224Type', 'SHA256Type', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'sha224', 'sha256']
+
+None
+
+[_sha3]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'implementation', 'keccakopt', 'sha3_224', 'sha3_256', 'sha3_384', 'sha3_512', 'shake_128', 'shake_256']
+
+None
+
+[_sha512]
+['SHA384Type', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'sha384', 'sha512']
+
+None
+
+[_signal]
+['CTRL_BREAK_EVENT', 'CTRL_C_EVENT', 'NSIG', 'SIGABRT', 'SIGBREAK', 'SIGFPE', 'SIGILL', 'SIGINT', 'SIGSEGV', 'SIGTERM', 'SIG_DFL', 'SIG_IGN', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'default_int_handler', 'getsignal', 'raise_signal', 'set_wakeup_fd', 'signal', 'strsignal', 'valid_signals']
+
+This module provides mechanisms to use signal handlers in Python.
+
+Functions:
+
+alarm() -- cause SIGALRM after a specified time [Unix only]
+setitimer() -- cause a signal (described below) after a specified
+               float time and the timer may restart then [Unix only]
+getitimer() -- get current value of timer [Unix only]
+signal() -- set the action for a given signal
+getsignal() -- get the signal action for a given signal
+pause() -- wait until a signal arrives [Unix only]
+default_int_handler() -- default SIGINT handler
+
+signal constants:
+SIG_DFL -- used to refer to the system default handler
+SIG_IGN -- used to ignore the signal
+NSIG -- number of defined signals
+SIGINT, SIGTERM, etc. -- signal numbers
+
+itimer constants:
+ITIMER_REAL -- decrements in real time, and delivers SIGALRM upon
+               expiration
+ITIMER_VIRTUAL -- decrements only when the process is executing,
+               and delivers SIGVTALRM upon expiration
+ITIMER_PROF -- decrements both when the process is executing and
+               when the system is executing on behalf of the process.
+               Coupled with ITIMER_VIRTUAL, this timer is usually
+               used to profile the time spent by the application
+               in user and kernel space. SIGPROF is delivered upon
+               expiration.
+
+
+*** IMPORTANT NOTICE ***
+A signal handler function is called with two arguments:
+the first is the signal number, the second is the interrupted stack frame.
+
+[_sre]
+['CODESIZE', 'MAGIC', 'MAXGROUPS', 'MAXREPEAT', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'ascii_iscased', 'ascii_tolower', 'compile', 'copyright', 'getcodesize', 'unicode_iscased', 'unicode_tolower']
+
+None
+
+[_stat]
+['FILE_ATTRIBUTE_ARCHIVE', 'FILE_ATTRIBUTE_COMPRESSED', 'FILE_ATTRIBUTE_DEVICE', 'FILE_ATTRIBUTE_DIRECTORY', 'FILE_ATTRIBUTE_ENCRYPTED', 'FILE_ATTRIBUTE_HIDDEN', 'FILE_ATTRIBUTE_INTEGRITY_STREAM', 'FILE_ATTRIBUTE_NORMAL', 'FILE_ATTRIBUTE_NOT_CONTENT_INDEXED', 'FILE_ATTRIBUTE_NO_SCRUB_DATA', 'FILE_ATTRIBUTE_OFFLINE', 'FILE_ATTRIBUTE_READONLY', 'FILE_ATTRIBUTE_REPARSE_POINT', 'FILE_ATTRIBUTE_SPARSE_FILE', 'FILE_ATTRIBUTE_SYSTEM', 'FILE_ATTRIBUTE_TEMPORARY', 'FILE_ATTRIBUTE_VIRTUAL', 'IO_REPARSE_TAG_APPEXECLINK', 'IO_REPARSE_TAG_MOUNT_POINT', 'IO_REPARSE_TAG_SYMLINK', 'SF_APPEND', 'SF_ARCHIVED', 'SF_IMMUTABLE', 'SF_NOUNLINK', 'SF_SNAPSHOT', 'ST_ATIME', 'ST_CTIME', 'ST_DEV', 'ST_GID', 'ST_INO', 'ST_MODE', 'ST_MTIME', 'ST_NLINK', 'ST_SIZE', 'ST_UID', 'S_ENFMT', 'S_IEXEC', 'S_IFBLK', 'S_IFCHR', 'S_IFDIR', 'S_IFDOOR', 'S_IFIFO', 'S_IFLNK', 'S_IFMT', 'S_IFPORT', 'S_IFREG', 'S_IFSOCK', 'S_IFWHT', 'S_IMODE', 'S_IREAD', 'S_IRGRP', 'S_IROTH', 'S_IRUSR', 'S_IRWXG', 'S_IRWXO', 'S_IRWXU', 'S_ISBLK', 'S_ISCHR', 'S_ISDIR', 'S_ISDOOR', 'S_ISFIFO', 'S_ISGID', 'S_ISLNK', 'S_ISPORT', 'S_ISREG', 'S_ISSOCK', 'S_ISUID', 'S_ISVTX', 'S_ISWHT', 'S_IWGRP', 'S_IWOTH', 'S_IWRITE', 'S_IWUSR', 'S_IXGRP', 'S_IXOTH', 'S_IXUSR', 'UF_APPEND', 'UF_COMPRESSED', 'UF_HIDDEN', 'UF_IMMUTABLE', 'UF_NODUMP', 'UF_NOUNLINK', 'UF_OPAQUE', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'filemode']
+
+S_IFMT_: file type bits
+S_IFDIR: directory
+S_IFCHR: character device
+S_IFBLK: block device
+S_IFREG: regular file
+S_IFIFO: fifo (named pipe)
+S_IFLNK: symbolic link
+S_IFSOCK: socket file
+S_IFDOOR: door
+S_IFPORT: event port
+S_IFWHT: whiteout
+
+S_ISUID: set UID bit
+S_ISGID: set GID bit
+S_ENFMT: file locking enforcement
+S_ISVTX: sticky bit
+S_IREAD: Unix V7 synonym for S_IRUSR
+S_IWRITE: Unix V7 synonym for S_IWUSR
+S_IEXEC: Unix V7 synonym for S_IXUSR
+S_IRWXU: mask for owner permissions
+S_IRUSR: read by owner
+S_IWUSR: write by owner
+S_IXUSR: execute by owner
+S_IRWXG: mask for group permissions
+S_IRGRP: read by group
+S_IWGRP: write by group
+S_IXGRP: execute by group
+S_IRWXO: mask for others (not in group) permissions
+S_IROTH: read by others
+S_IWOTH: write by others
+S_IXOTH: execute by others
+
+UF_NODUMP: do not dump file
+UF_IMMUTABLE: file may not be changed
+UF_APPEND: file may only be appended to
+UF_OPAQUE: directory is opaque when viewed through a union stack
+UF_NOUNLINK: file may not be renamed or deleted
+UF_COMPRESSED: OS X: file is hfs-compressed
+UF_HIDDEN: OS X: file should not be displayed
+SF_ARCHIVED: file may be archived
+SF_IMMUTABLE: file may not be changed
+SF_APPEND: file may only be appended to
+SF_NOUNLINK: file may not be renamed or deleted
+SF_SNAPSHOT: file is a snapshot file
+
+ST_MODE
+ST_INO
+ST_DEV
+ST_NLINK
+ST_UID
+ST_GID
+ST_SIZE
+ST_ATIME
+ST_MTIME
+ST_CTIME
+
+FILE_ATTRIBUTE_*: Windows file attribute constants
+                   (only present on Windows)
+
+
+[_statistics]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', '_normal_dist_inv_cdf']
+
+Accelerators for the statistics module.
+
+
+[_string]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'formatter_field_name_split', 'formatter_parser']
+
+string helper module
+
+[_struct]
+['Struct', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_clearcache', 'calcsize', 'error', 'iter_unpack', 'pack', 'pack_into', 'unpack', 'unpack_from']
+
+Functions to convert between Python values and C structs.
+Python bytes objects are used to hold the data representing the C struct
+and also as format strings (explained below) to describe the layout of data
+in the C struct.
+
+The optional first format char indicates byte order, size and alignment:
+  @: native order, size & alignment (default)
+  =: native order, std. size & alignment
+  <: little-endian, std. size & alignment
+  >: big-endian, std. size & alignment
+  !: same as >
+
+The remaining chars indicate types of args and must match exactly;
+these can be preceded by a decimal repeat count:
+  x: pad byte (no data); c:char; b:signed byte; B:unsigned byte;
+  ?: _Bool (requires C99; if not available, char is used instead)
+  h:short; H:unsigned short; i:int; I:unsigned int;
+  l:long; L:unsigned long; f:float; d:double; e:half-float.
+Special cases (preceding decimal count indicates length):
+  s:string (array of char); p: pascal string (with count byte).
+Special cases (only available in native format):
+  n:ssize_t; N:size_t;
+  P:an integer type that is wide enough to hold a pointer.
+Special case (not in native mode unless 'long long' in platform C):
+  q:long long; Q:unsigned long long
+Whitespace between formats is ignored.
+
+The variable struct.error is an exception raised on errors.
+
+
+[_symtable]
+['CELL', 'DEF_ANNOT', 'DEF_BOUND', 'DEF_FREE', 'DEF_FREE_CLASS', 'DEF_GLOBAL', 'DEF_IMPORT', 'DEF_LOCAL', 'DEF_NONLOCAL', 'DEF_PARAM', 'FREE', 'GLOBAL_EXPLICIT', 'GLOBAL_IMPLICIT', 'LOCAL', 'SCOPE_MASK', 'SCOPE_OFF', 'TYPE_CLASS', 'TYPE_FUNCTION', 'TYPE_MODULE', 'USE', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'symtable']
+
+None
+
+[_thread]
+['LockType', 'RLock', 'TIMEOUT_MAX', '_ExceptHookArgs', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_count', '_excepthook', '_local', '_set_sentinel', 'allocate', 'allocate_lock', 'error', 'exit', 'exit_thread', 'get_ident', 'get_native_id', 'interrupt_main', 'stack_size', 'start_new', 'start_new_thread']
+
+This module provides primitive operations to write multi-threaded programs.
+The 'threading' module provides a more convenient interface.
+
+[_tracemalloc]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', '_get_object_traceback', '_get_traces', 'clear_traces', 'get_traceback_limit', 'get_traced_memory', 'get_tracemalloc_memory', 'is_tracing', 'reset_peak', 'start', 'stop']
+
+Debug module to trace memory blocks allocated by Python.
+
+[_warnings]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', '_defaultaction', '_filters_mutated', '_onceregistry', 'filters', 'warn', 'warn_explicit']
+
+_warnings provides basic warning filtering support.
+It is a helper module to speed up interpreter start-up.
+
+[_weakref]
+['CallableProxyType', 'ProxyType', 'ReferenceType', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_remove_dead_weakref', 'getweakrefcount', 'getweakrefs', 'proxy', 'ref']
+
+Weak-reference support module.
+
+[_winapi]
+['ABOVE_NORMAL_PRIORITY_CLASS', 'BELOW_NORMAL_PRIORITY_CLASS', 'CREATE_BREAKAWAY_FROM_JOB', 'CREATE_DEFAULT_ERROR_MODE', 'CREATE_NEW_CONSOLE', 'CREATE_NEW_PROCESS_GROUP', 'CREATE_NO_WINDOW', 'CloseHandle', 'ConnectNamedPipe', 'CreateFile', 'CreateFileMapping', 'CreateJunction', 'CreateNamedPipe', 'CreatePipe', 'CreateProcess', 'DETACHED_PROCESS', 'DUPLICATE_CLOSE_SOURCE', 'DUPLICATE_SAME_ACCESS', 'DuplicateHandle', 'ERROR_ALREADY_EXISTS', 'ERROR_BROKEN_PIPE', 'ERROR_IO_PENDING', 'ERROR_MORE_DATA', 'ERROR_NETNAME_DELETED', 'ERROR_NO_DATA', 'ERROR_NO_SYSTEM_RESOURCES', 'ERROR_OPERATION_ABORTED', 'ERROR_PIPE_BUSY', 'ERROR_PIPE_CONNECTED', 'ERROR_SEM_TIMEOUT', 'ExitProcess', 'FILE_FLAG_FIRST_PIPE_INSTANCE', 'FILE_FLAG_OVERLAPPED', 'FILE_GENERIC_READ', 'FILE_GENERIC_WRITE', 'FILE_MAP_ALL_ACCESS', 'FILE_MAP_COPY', 'FILE_MAP_EXECUTE', 'FILE_MAP_READ', 'FILE_MAP_WRITE', 'FILE_TYPE_CHAR', 'FILE_TYPE_DISK', 'FILE_TYPE_PIPE', 'FILE_TYPE_REMOTE', 'FILE_TYPE_UNKNOWN', 'GENERIC_READ', 'GENERIC_WRITE', 'GetACP', 'GetCurrentProcess', 'GetExitCodeProcess', 'GetFileType', 'GetLastError', 'GetModuleFileName', 'GetStdHandle', 'GetVersion', 'HIGH_PRIORITY_CLASS', 'IDLE_PRIORITY_CLASS', 'INFINITE', 'INVALID_HANDLE_VALUE', 'MEM_COMMIT', 'MEM_FREE', 'MEM_IMAGE', 'MEM_MAPPED', 'MEM_PRIVATE', 'MEM_RESERVE', 'MapViewOfFile', 'NMPWAIT_WAIT_FOREVER', 'NORMAL_PRIORITY_CLASS', 'NULL', 'OPEN_EXISTING', 'OpenFileMapping', 'OpenProcess', 'Overlapped', 'PAGE_EXECUTE', 'PAGE_EXECUTE_READ', 'PAGE_EXECUTE_READWRITE', 'PAGE_EXECUTE_WRITECOPY', 'PAGE_GUARD', 'PAGE_NOACCESS', 'PAGE_NOCACHE', 'PAGE_READONLY', 'PAGE_READWRITE', 'PAGE_WRITECOMBINE', 'PAGE_WRITECOPY', 'PIPE_ACCESS_DUPLEX', 'PIPE_ACCESS_INBOUND', 'PIPE_READMODE_MESSAGE', 'PIPE_TYPE_MESSAGE', 'PIPE_UNLIMITED_INSTANCES', 'PIPE_WAIT', 'PROCESS_ALL_ACCESS', 'PROCESS_DUP_HANDLE', 'PeekNamedPipe', 'REALTIME_PRIORITY_CLASS', 'ReadFile', 'SEC_COMMIT', 'SEC_IMAGE', 'SEC_LARGE_PAGES', 'SEC_NOCACHE', 'SEC_RESERVE', 'SEC_WRITECOMBINE', 'STARTF_USESHOWWINDOW', 'STARTF_USESTDHANDLES', 'STD_ERROR_HANDLE', 'STD_INPUT_HANDLE', 'STD_OUTPUT_HANDLE', 'STILL_ACTIVE', 'SW_HIDE', 'SYNCHRONIZE', 'SetNamedPipeHandleState', 'TerminateProcess', 'VirtualQuerySize', 'WAIT_ABANDONED_0', 'WAIT_OBJECT_0', 'WAIT_TIMEOUT', 'WaitForMultipleObjects', 'WaitForSingleObject', 'WaitNamedPipe', 'WriteFile', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_mimetypes_read_windows_registry']
+
+None
+
+[_xxsubinterpreters]
+['ChannelClosedError', 'ChannelEmptyError', 'ChannelError', 'ChannelID', 'ChannelNotEmptyError', 'ChannelNotFoundError', 'InterpreterID', 'RunFailedError', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_channel_id', 'channel_close', 'channel_create', 'channel_destroy', 'channel_list_all', 'channel_list_interpreters', 'channel_recv', 'channel_release', 'channel_send', 'create', 'destroy', 'get_current', 'get_main', 'is_running', 'is_shareable', 'list_all', 'run_string']
+
+This module provides primitive operations to manage Python interpreters.
+The 'interpreters' module provides a more convenient interface.
+
+[array]
+['ArrayType', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_array_reconstructor', 'array', 'typecodes']
+
+This module defines an object type which can efficiently represent
+an array of basic values: characters, integers, floating point
+numbers.  Arrays are sequence types and behave very much like lists,
+except that the type of objects stored in them is constrained.
+
+
+[atexit]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', '_clear', '_ncallbacks', '_run_exitfuncs', 'register', 'unregister']
+
+allow programmer to define multiple exit functions to be executed
+upon normal program termination.
+
+Two public functions, register and unregister, are defined.
+
+
+[audioop]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'add', 'adpcm2lin', 'alaw2lin', 'avg', 'avgpp', 'bias', 'byteswap', 'cross', 'error', 'findfactor', 'findfit', 'findmax', 'getsample', 'lin2adpcm', 'lin2alaw', 'lin2lin', 'lin2ulaw', 'max', 'maxpp', 'minmax', 'mul', 'ratecv', 'reverse', 'rms', 'tomono', 'tostereo', 'ulaw2lin']
+
+None
+
+[binascii]
+['Error', 'Incomplete', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'a2b_base64', 'a2b_hex', 'a2b_hqx', 'a2b_qp', 'a2b_uu', 'b2a_base64', 'b2a_hex', 'b2a_hqx', 'b2a_qp', 'b2a_uu', 'crc32', 'crc_hqx', 'hexlify', 'rlecode_hqx', 'rledecode_hqx', 'unhexlify']
+
+Conversion between binary data and ASCII
+
+[builtins]
+['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException', 'BlockingIOError', 'BrokenPipeError', 'BufferError', 'BytesWarning', 'ChildProcessError', 'ConnectionAbortedError', 'ConnectionError', 'ConnectionRefusedError', 'ConnectionResetError', 'DeprecationWarning', 'EOFError', 'Ellipsis', 'EncodingWarning', 'EnvironmentError', 'Exception', 'False', 'FileExistsError', 'FileNotFoundError', 'FloatingPointError', 'FutureWarning', 'GeneratorExit', 'IOError', 'ImportError', 'ImportWarning', 'IndentationError', 'IndexError', 'InterruptedError', 'IsADirectoryError', 'KeyError', 'KeyboardInterrupt', 'LookupError', 'MemoryError', 'ModuleNotFoundError', 'NameError', 'None', 'NotADirectoryError', 'NotImplemented', 'NotImplementedError', 'OSError', 'OverflowError', 'PendingDeprecationWarning', 'PermissionError', 'ProcessLookupError', 'RecursionError', 'ReferenceError', 'ResourceWarning', 'RuntimeError', 'RuntimeWarning', 'StopAsyncIteration', 'StopIteration', 'SyntaxError', 'SyntaxWarning', 'SystemError', 'SystemExit', 'TabError', 'TimeoutError', 'True', 'TypeError', 'UnboundLocalError', 'UnicodeDecodeError', 'UnicodeEncodeError', 'UnicodeError', 'UnicodeTranslateError', 'UnicodeWarning', 'UserWarning', 'ValueError', 'Warning', 'WindowsError', 'ZeroDivisionError', '__build_class__', '__debug__', '__doc__', '__import__', '__loader__', '__name__', '__package__', '__spec__', 'abs', 'aiter', 'all', 'anext', 'any', 'ascii', 'bin', 'bool', 'breakpoint', 'bytearray', 'bytes', 'callable', 'chr', 'classmethod', 'compile', 'complex', 'copyright', 'credits', 'delattr', 'dict', 'dir', 'divmod', 'enumerate', 'eval', 'exec', 'exit', 'filter', 'float', 'format', 'frozenset', 'getattr', 'globals', 'hasattr', 'hash', 'help', 'hex', 'id', 'input', 'int', 'isinstance', 'issubclass', 'iter', 'len', 'license', 'list', 'locals', 'map', 'max', 'memoryview', 'min', 'next', 'object', 'oct', 'open', 'ord', 'pow', 'print', 'property', 'quit', 'range', 'repr', 'reversed', 'round', 'set', 'setattr', 'slice', 'sorted', 'staticmethod', 'str', 'sum', 'super', 'tuple', 'type', 'vars', 'zip']
+
+Built-in functions, exceptions, and other objects.
+
+Noteworthy: None is the `nil' object; Ellipsis represents `...' in slices.
+
+[cmath]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atanh', 'cos', 'cosh', 'e', 'exp', 'inf', 'infj', 'isclose', 'isfinite', 'isinf', 'isnan', 'log', 'log10', 'nan', 'nanj', 'phase', 'pi', 'polar', 'rect', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'tau']
+
+This module provides access to mathematical functions for complex
+numbers.
+
+[errno]
+['E2BIG', 'EACCES', 'EADDRINUSE', 'EADDRNOTAVAIL', 'EAFNOSUPPORT', 'EAGAIN', 'EALREADY', 'EBADF', 'EBADMSG', 'EBUSY', 'ECANCELED', 'ECHILD', 'ECONNABORTED', 'ECONNREFUSED', 'ECONNRESET', 'EDEADLK', 'EDEADLOCK', 'EDESTADDRREQ', 'EDOM', 'EDQUOT', 'EEXIST', 'EFAULT', 'EFBIG', 'EHOSTDOWN', 'EHOSTUNREACH', 'EIDRM', 'EILSEQ', 'EINPROGRESS', 'EINTR', 'EINVAL', 'EIO', 'EISCONN', 'EISDIR', 'ELOOP', 'EMFILE', 'EMLINK', 'EMSGSIZE', 'ENAMETOOLONG', 'ENETDOWN', 'ENETRESET', 'ENETUNREACH', 'ENFILE', 'ENOBUFS', 'ENODATA', 'ENODEV', 'ENOENT', 'ENOEXEC', 'ENOLCK', 'ENOLINK', 'ENOMEM', 'ENOMSG', 'ENOPROTOOPT', 'ENOSPC', 'ENOSR', 'ENOSTR', 'ENOSYS', 'ENOTCONN', 'ENOTDIR', 'ENOTEMPTY', 'ENOTRECOVERABLE', 'ENOTSOCK', 'ENOTSUP', 'ENOTTY', 'ENXIO', 'EOPNOTSUPP', 'EOVERFLOW', 'EOWNERDEAD', 'EPERM', 'EPFNOSUPPORT', 'EPIPE', 'EPROTO', 'EPROTONOSUPPORT', 'EPROTOTYPE', 'ERANGE', 'EREMOTE', 'EROFS', 'ESHUTDOWN', 'ESOCKTNOSUPPORT', 'ESPIPE', 'ESRCH', 'ESTALE', 'ETIME', 'ETIMEDOUT', 'ETOOMANYREFS', 'ETXTBSY', 'EUSERS', 'EWOULDBLOCK', 'EXDEV', 'WSABASEERR', 'WSAEACCES', 'WSAEADDRINUSE', 'WSAEADDRNOTAVAIL', 'WSAEAFNOSUPPORT', 'WSAEALREADY', 'WSAEBADF', 'WSAECONNABORTED', 'WSAECONNREFUSED', 'WSAECONNRESET', 'WSAEDESTADDRREQ', 'WSAEDISCON', 'WSAEDQUOT', 'WSAEFAULT', 'WSAEHOSTDOWN', 'WSAEHOSTUNREACH', 'WSAEINPROGRESS', 'WSAEINTR', 'WSAEINVAL', 'WSAEISCONN', 'WSAELOOP', 'WSAEMFILE', 'WSAEMSGSIZE', 'WSAENAMETOOLONG', 'WSAENETDOWN', 'WSAENETRESET', 'WSAENETUNREACH', 'WSAENOBUFS', 'WSAENOPROTOOPT', 'WSAENOTCONN', 'WSAENOTEMPTY', 'WSAENOTSOCK', 'WSAEOPNOTSUPP', 'WSAEPFNOSUPPORT', 'WSAEPROCLIM', 'WSAEPROTONOSUPPORT', 'WSAEPROTOTYPE', 'WSAEREMOTE', 'WSAESHUTDOWN', 'WSAESOCKTNOSUPPORT', 'WSAESTALE', 'WSAETIMEDOUT', 'WSAETOOMANYREFS', 'WSAEUSERS', 'WSAEWOULDBLOCK', 'WSANOTINITIALISED', 'WSASYSNOTREADY', 'WSAVERNOTSUPPORTED', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'errorcode']
+
+This module makes available standard errno system symbols.
+
+The value of each symbol is the corresponding integer value,
+e.g., on most systems, errno.ENOENT equals the integer 2.
+
+The dictionary errno.errorcode maps numeric codes to symbol names,
+e.g., errno.errorcode[2] could be the string 'ENOENT'.
+
+Symbols that are not relevant to the underlying system are not defined.
+
+To map error codes to error messages, use the function os.strerror(),
+e.g. os.strerror(2) could return 'No such file or directory'.
+
+[faulthandler]
+['_EXCEPTION_ACCESS_VIOLATION', '_EXCEPTION_INT_DIVIDE_BY_ZERO', '_EXCEPTION_NONCONTINUABLE', '_EXCEPTION_NONCONTINUABLE_EXCEPTION', '_EXCEPTION_STACK_OVERFLOW', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_fatal_error_c_thread', '_raise_exception', '_read_null', '_sigabrt', '_sigfpe', '_sigsegv', 'cancel_dump_traceback_later', 'disable', 'dump_traceback', 'dump_traceback_later', 'enable', 'is_enabled']
+
+faulthandler module.
+
+[gc]
+['DEBUG_COLLECTABLE', 'DEBUG_LEAK', 'DEBUG_SAVEALL', 'DEBUG_STATS', 'DEBUG_UNCOLLECTABLE', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'callbacks', 'collect', 'disable', 'enable', 'freeze', 'garbage', 'get_count', 'get_debug', 'get_freeze_count', 'get_objects', 'get_referents', 'get_referrers', 'get_stats', 'get_threshold', 'is_finalized', 'is_tracked', 'isenabled', 'set_debug', 'set_threshold', 'unfreeze']
+
+This module provides access to the garbage collector for reference cycles.
+
+enable() -- Enable automatic garbage collection.
+disable() -- Disable automatic garbage collection.
+isenabled() -- Returns true if automatic collection is enabled.
+collect() -- Do a full collection right now.
+get_count() -- Return the current collection counts.
+get_stats() -- Return list of dictionaries containing per-generation stats.
+set_debug() -- Set debugging flags.
+get_debug() -- Get debugging flags.
+set_threshold() -- Set the collection thresholds.
+get_threshold() -- Return the current the collection thresholds.
+get_objects() -- Return a list of all objects tracked by the collector.
+is_tracked() -- Returns true if a given object is tracked.
+is_finalized() -- Returns true if a given object has been already finalized.
+get_referrers() -- Return the list of objects that refer to an object.
+get_referents() -- Return the list of objects that an object refers to.
+freeze() -- Freeze all tracked objects and ignore them for future collections.
+unfreeze() -- Unfreeze all objects in the permanent generation.
+get_freeze_count() -- Return the number of objects in the permanent generation.
+
+
+[itertools]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', '_grouper', '_tee', '_tee_dataobject', 'accumulate', 'chain', 'combinations', 'combinations_with_replacement', 'compress', 'count', 'cycle', 'dropwhile', 'filterfalse', 'groupby', 'islice', 'pairwise', 'permutations', 'product', 'repeat', 'starmap', 'takewhile', 'tee', 'zip_longest']
+
+Functional tools for creating and using iterators.
+
+Infinite iterators:
+count(start=0, step=1) --> start, start+step, start+2*step, ...
+cycle(p) --> p0, p1, ... plast, p0, p1, ...
+repeat(elem [,n]) --> elem, elem, elem, ... endlessly or up to n times
+
+Iterators terminating on the shortest input sequence:
+accumulate(p[, func]) --> p0, p0+p1, p0+p1+p2
+chain(p, q, ...) --> p0, p1, ... plast, q0, q1, ...
+chain.from_iterable([p, q, ...]) --> p0, p1, ... plast, q0, q1, ...
+compress(data, selectors) --> (d[0] if s[0]), (d[1] if s[1]), ...
+dropwhile(pred, seq) --> seq[n], seq[n+1], starting when pred fails
+groupby(iterable[, keyfunc]) --> sub-iterators grouped by value of keyfunc(v)
+filterfalse(pred, seq) --> elements of seq where pred(elem) is False
+islice(seq, [start,] stop [, step]) --> elements from
+       seq[start:stop:step]
+pairwise(s) --> (s[0],s[1]), (s[1],s[2]), (s[2], s[3]), ...
+starmap(fun, seq) --> fun(*seq[0]), fun(*seq[1]), ...
+tee(it, n=2) --> (it1, it2 , ... itn) splits one iterator into n
+takewhile(pred, seq) --> seq[0], seq[1], until pred fails
+zip_longest(p, q, ...) --> (p[0], q[0]), (p[1], q[1]), ...
+
+Combinatoric generators:
+product(p, q, ... [repeat=1]) --> cartesian product
+permutations(p[, r])
+combinations(p, r)
+combinations_with_replacement(p, r)
+
+
+[marshal]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'dump', 'dumps', 'load', 'loads', 'version']
+
+This module contains functions that can read and write Python values in
+a binary format. The format is specific to Python, but independent of
+machine architecture issues.
+
+Not all Python object types are supported; in general, only objects
+whose value is independent from a particular invocation of Python can be
+written and read by this module. The following types are supported:
+None, integers, floating point numbers, strings, bytes, bytearrays,
+tuples, lists, sets, dictionaries, and code objects, where it
+should be understood that tuples, lists and dictionaries are only
+supported as long as the values contained therein are themselves
+supported; and recursive lists and dictionaries should not be written
+(they will cause infinite loops).
+
+Variables:
+
+version -- indicates the format that the module uses. Version 0 is the
+    historical format, version 1 shares interned strings and version 2
+    uses a binary format for floating point numbers.
+    Version 3 shares common object references (New in version 3.4).
+
+Functions:
+
+dump() -- write value to a file
+load() -- read value from a file
+dumps() -- marshal value as a bytes object
+loads() -- read value from a bytes-like object
+
+[math]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 'atanh', 'ceil', 'comb', 'copysign', 'cos', 'cosh', 'degrees', 'dist', 'e', 'erf', 'erfc', 'exp', 'expm1', 'fabs', 'factorial', 'floor', 'fmod', 'frexp', 'fsum', 'gamma', 'gcd', 'hypot', 'inf', 'isclose', 'isfinite', 'isinf', 'isnan', 'isqrt', 'lcm', 'ldexp', 'lgamma', 'log', 'log10', 'log1p', 'log2', 'modf', 'nan', 'nextafter', 'perm', 'pi', 'pow', 'prod', 'radians', 'remainder', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'tau', 'trunc', 'ulp']
+
+This module provides access to the mathematical functions
+defined by the C standard.
+
+[mmap]
+['ACCESS_COPY', 'ACCESS_DEFAULT', 'ACCESS_READ', 'ACCESS_WRITE', 'ALLOCATIONGRANULARITY', 'PAGESIZE', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'error', 'mmap']
+
+None
+
+[msvcrt]
+['CRT_ASSEMBLY_VERSION', 'GetErrorMode', 'LK_LOCK', 'LK_NBLCK', 'LK_NBRLCK', 'LK_RLCK', 'LK_UNLCK', 'SEM_FAILCRITICALERRORS', 'SEM_NOALIGNMENTFAULTEXCEPT', 'SEM_NOGPFAULTERRORBOX', 'SEM_NOOPENFILEERRORBOX', 'SetErrorMode', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'get_osfhandle', 'getch', 'getche', 'getwch', 'getwche', 'heapmin', 'kbhit', 'locking', 'open_osfhandle', 'putch', 'putwch', 'setmode', 'ungetch', 'ungetwch']
+
+None
+
+[nt]
+['DirEntry', 'F_OK', 'O_APPEND', 'O_BINARY', 'O_CREAT', 'O_EXCL', 'O_NOINHERIT', 'O_RANDOM', 'O_RDONLY', 'O_RDWR', 'O_SEQUENTIAL', 'O_SHORT_LIVED', 'O_TEMPORARY', 'O_TEXT', 'O_TRUNC', 'O_WRONLY', 'P_DETACH', 'P_NOWAIT', 'P_NOWAITO', 'P_OVERLAY', 'P_WAIT', 'R_OK', 'TMP_MAX', 'W_OK', 'X_OK', '_LOAD_LIBRARY_SEARCH_APPLICATION_DIR', '_LOAD_LIBRARY_SEARCH_DEFAULT_DIRS', '_LOAD_LIBRARY_SEARCH_DLL_LOAD_DIR', '_LOAD_LIBRARY_SEARCH_SYSTEM32', '_LOAD_LIBRARY_SEARCH_USER_DIRS', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_add_dll_directory', '_exit', '_getdiskusage', '_getfinalpathname', '_getfullpathname', '_getvolumepathname', '_have_functions', '_path_splitroot', '_remove_dll_directory', 'abort', 'access', 'chdir', 'chmod', 'close', 'closerange', 'cpu_count', 'device_encoding', 'dup', 'dup2', 'environ', 'error', 'execv', 'execve', 'fspath', 'fstat', 'fsync', 'ftruncate', 'get_handle_inheritable', 'get_inheritable', 'get_terminal_size', 'getcwd', 'getcwdb', 'getlogin', 'getpid', 'getppid', 'isatty', 'kill', 'link', 'listdir', 'lseek', 'lstat', 'mkdir', 'open', 'pipe', 'putenv', 'read', 'readlink', 'remove', 'rename', 'replace', 'rmdir', 'scandir', 'set_handle_inheritable', 'set_inheritable', 'spawnv', 'spawnve', 'startfile', 'stat', 'stat_result', 'statvfs_result', 'strerror', 'symlink', 'system', 'terminal_size', 'times', 'times_result', 'truncate', 'umask', 'uname_result', 'unlink', 'unsetenv', 'urandom', 'utime', 'waitpid', 'waitstatus_to_exitcode', 'write']
+
+This module provides access to operating system functionality that is
+standardized by the C Standard and the POSIX standard (a thinly
+disguised Unix interface).  Refer to the library manual and
+corresponding Unix manual entries for more information on calls.
+
+[sys]
+['__breakpointhook__', '__displayhook__', '__doc__', '__excepthook__', '__interactivehook__', '__loader__', '__name__', '__package__', '__spec__', '__stderr__', '__stdin__', '__stdout__', '__unraisablehook__', '_base_executable', '_clear_type_cache', '_current_exceptions', '_current_frames', '_deactivate_opcache', '_debugmallocstats', '_enablelegacywindowsfsencoding', '_framework', '_getframe', '_git', '_home', '_xoptions', 'addaudithook', 'api_version', 'argv', 'audit', 'base_exec_prefix', 'base_prefix', 'breakpointhook', 'builtin_module_names', 'byteorder', 'call_tracing', 'copyright', 'displayhook', 'dllhandle', 'dont_write_bytecode', 'exc_info', 'excepthook', 'exec_prefix', 'executable', 'exit', 'flags', 'float_info', 'float_repr_style', 'get_asyncgen_hooks', 'get_coroutine_origin_tracking_depth', 'getallocatedblocks', 'getdefaultencoding', 'getfilesystemencodeerrors', 'getfilesystemencoding', 'getprofile', 'getrecursionlimit', 'getrefcount', 'getsizeof', 'getswitchinterval', 'gettrace', 'getwindowsversion', 'hash_info', 'hexversion', 'implementation', 'int_info', 'intern', 'is_finalizing', 'maxsize', 'maxunicode', 'meta_path', 'modules', 'orig_argv', 'path', 'path_hooks', 'path_importer_cache', 'platform', 'platlibdir', 'prefix', 'pycache_prefix', 'set_asyncgen_hooks', 'set_coroutine_origin_tracking_depth', 'setprofile', 'setrecursionlimit', 'setswitchinterval', 'settrace', 'stderr', 'stdin', 'stdlib_module_names', 'stdout', 'thread_info', 'unraisablehook', 'version', 'version_info', 'warnoptions', 'winver']
+
+This module provides access to some objects used or maintained by the
+interpreter and to functions that interact strongly with the interpreter.
+
+Dynamic objects:
+
+argv -- command line arguments; argv[0] is the script pathname if known
+path -- module search path; path[0] is the script directory, else ''
+modules -- dictionary of loaded modules
+
+displayhook -- called to show results in an interactive session
+excepthook -- called to handle any uncaught exception other than SystemExit
+  To customize printing in an interactive session or to install a custom
+  top-level exception handler, assign other functions to replace these.
+
+stdin -- standard input file object; used by input()
+stdout -- standard output file object; used by print()
+stderr -- standard error object; used for error messages
+  By assigning other file objects (or objects that behave like files)
+  to these, it is possible to redirect all of the interpreter's I/O.
+
+last_type -- type of last uncaught exception
+last_value -- value of last uncaught exception
+last_traceback -- traceback of last uncaught exception
+  These three are only available in an interactive session after a
+  traceback has been printed.
+
+Static objects:
+
+builtin_module_names -- tuple of module names built into this interpreter
+copyright -- copyright notice pertaining to this interpreter
+exec_prefix -- prefix used to find the machine-specific Python library
+executable -- absolute path of the executable binary of the Python interpreter
+float_info -- a named tuple with information about the float implementation.
+float_repr_style -- string indicating the style of repr() output for floats
+hash_info -- a named tuple with information about the hash algorithm.
+hexversion -- version information encoded as a single integer
+implementation -- Python implementation information.
+int_info -- a named tuple with information about the int implementation.
+maxsize -- the largest supported length of containers.
+maxunicode -- the value of the largest Unicode code point
+platform -- platform identifier
+prefix -- prefix used to find the Python library
+thread_info -- a named tuple with information about the thread implementation.
+version -- the version of this interpreter as a string
+version_info -- version information as a named tuple
+dllhandle -- [Windows only] integer handle of the Python DLL
+winver -- [Windows only] version number of the Python DLL
+_enablelegacywindowsfsencoding -- [Windows only]
+__stdin__ -- the original stdin; don't touch!
+__stdout__ -- the original stdout; don't touch!
+__stderr__ -- the original stderr; don't touch!
+__displayhook__ -- the original displayhook; don't touch!
+__excepthook__ -- the original excepthook; don't touch!
+
+Functions:
+
+displayhook() -- print an object to the screen, and save it in builtins._
+excepthook() -- print an exception and its traceback to sys.stderr
+exc_info() -- return thread-safe information about the current exception
+exit() -- exit the interpreter by raising SystemExit
+getdlopenflags() -- returns flags to be used for dlopen() calls
+getprofile() -- get the global profiling function
+getrefcount() -- return the reference count for an object (plus one :-)
+getrecursionlimit() -- return the max recursion depth for the interpreter
+getsizeof() -- return the size of an object in bytes
+gettrace() -- get the global debug tracing function
+setdlopenflags() -- set the flags to be used for dlopen() calls
+setprofile() -- set the global profiling function
+setrecursionlimit() -- set the max recursion depth for the interpreter
+settrace() -- set the global debug tracing function
+
+
+[time]
+['_STRUCT_TM_ITEMS', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'altzone', 'asctime', 'ctime', 'daylight', 'get_clock_info', 'gmtime', 'localtime', 'mktime', 'monotonic', 'monotonic_ns', 'perf_counter', 'perf_counter_ns', 'process_time', 'process_time_ns', 'sleep', 'strftime', 'strptime', 'struct_time', 'thread_time', 'thread_time_ns', 'time', 'time_ns', 'timezone', 'tzname']
+
+This module provides various functions to manipulate time values.
+
+There are two standard representations of time.  One is the number
+of seconds since the Epoch, in UTC (a.k.a. GMT).  It may be an integer
+or a floating point number (to represent fractions of seconds).
+The Epoch is system-defined; on Unix, it is generally January 1st, 1970.
+The actual value can be retrieved by calling gmtime(0).
+
+The other representation is a tuple of 9 integers giving local time.
+The tuple items are:
+  year (including century, e.g. 1998)
+  month (1-12)
+  day (1-31)
+  hours (0-23)
+  minutes (0-59)
+  seconds (0-59)
+  weekday (0-6, Monday is 0)
+  Julian day (day in the year, 1-366)
+  DST (Daylight Savings Time) flag (-1, 0 or 1)
+If the DST flag is 0, the time is given in the regular time zone;
+if it is 1, the time is given in the DST time zone;
+if it is -1, mktime() should guess based on the date and time.
+
+
+[winreg]
+['CloseKey', 'ConnectRegistry', 'CreateKey', 'CreateKeyEx', 'DeleteKey', 'DeleteKeyEx', 'DeleteValue', 'DisableReflectionKey', 'EnableReflectionKey', 'EnumKey', 'EnumValue', 'ExpandEnvironmentStrings', 'FlushKey', 'HKEYType', 'HKEY_CLASSES_ROOT', 'HKEY_CURRENT_CONFIG', 'HKEY_CURRENT_USER', 'HKEY_DYN_DATA', 'HKEY_LOCAL_MACHINE', 'HKEY_PERFORMANCE_DATA', 'HKEY_USERS', 'KEY_ALL_ACCESS', 'KEY_CREATE_LINK', 'KEY_CREATE_SUB_KEY', 'KEY_ENUMERATE_SUB_KEYS', 'KEY_EXECUTE', 'KEY_NOTIFY', 'KEY_QUERY_VALUE', 'KEY_READ', 'KEY_SET_VALUE', 'KEY_WOW64_32KEY', 'KEY_WOW64_64KEY', 'KEY_WRITE', 'LoadKey', 'OpenKey', 'OpenKeyEx', 'QueryInfoKey', 'QueryReflectionKey', 'QueryValue', 'QueryValueEx', 'REG_BINARY', 'REG_CREATED_NEW_KEY', 'REG_DWORD', 'REG_DWORD_BIG_ENDIAN', 'REG_DWORD_LITTLE_ENDIAN', 'REG_EXPAND_SZ', 'REG_FULL_RESOURCE_DESCRIPTOR', 'REG_LEGAL_CHANGE_FILTER', 'REG_LEGAL_OPTION', 'REG_LINK', 'REG_MULTI_SZ', 'REG_NONE', 'REG_NOTIFY_CHANGE_ATTRIBUTES', 'REG_NOTIFY_CHANGE_LAST_SET', 'REG_NOTIFY_CHANGE_NAME', 'REG_NOTIFY_CHANGE_SECURITY', 'REG_NO_LAZY_FLUSH', 'REG_OPENED_EXISTING_KEY', 'REG_OPTION_BACKUP_RESTORE', 'REG_OPTION_CREATE_LINK', 'REG_OPTION_NON_VOLATILE', 'REG_OPTION_OPEN_LINK', 'REG_OPTION_RESERVED', 'REG_OPTION_VOLATILE', 'REG_QWORD', 'REG_QWORD_LITTLE_ENDIAN', 'REG_REFRESH_HIVE', 'REG_RESOURCE_LIST', 'REG_RESOURCE_REQUIREMENTS_LIST', 'REG_SZ', 'REG_WHOLE_HIVE_VOLATILE', 'SaveKey', 'SetValue', 'SetValueEx', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'error']
+
+This module provides access to the Windows registry API.
+
+Functions:
+
+CloseKey() - Closes a registry key.
+ConnectRegistry() - Establishes a connection to a predefined registry handle
+                    on another computer.
+CreateKey() - Creates the specified key, or opens it if it already exists.
+DeleteKey() - Deletes the specified key.
+DeleteValue() - Removes a named value from the specified registry key.
+EnumKey() - Enumerates subkeys of the specified open registry key.
+EnumValue() - Enumerates values of the specified open registry key.
+ExpandEnvironmentStrings() - Expand the env strings in a REG_EXPAND_SZ
+                             string.
+FlushKey() - Writes all the attributes of the specified key to the registry.
+LoadKey() - Creates a subkey under HKEY_USER or HKEY_LOCAL_MACHINE and
+            stores registration information from a specified file into that
+            subkey.
+OpenKey() - Opens the specified key.
+OpenKeyEx() - Alias of OpenKey().
+QueryValue() - Retrieves the value associated with the unnamed value for a
+               specified key in the registry.
+QueryValueEx() - Retrieves the type and data for a specified value name
+                 associated with an open registry key.
+QueryInfoKey() - Returns information about the specified key.
+SaveKey() - Saves the specified key, and all its subkeys a file.
+SetValue() - Associates a value with a specified key.
+SetValueEx() - Stores data in the value field of an open registry key.
+
+Special objects:
+
+HKEYType -- type object for HKEY objects
+error -- exception raised for Win32 errors
+
+Integer constants:
+Many constants are defined - see the documentation for each function
+to see what constants are used, and where.
+
+[xxsubtype]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'bench', 'spamdict', 'spamlist']
+
+xxsubtype is an example module showing how to subtype builtin types from C.
+test_descr.py in the standard test suite requires it in order to complete.
+If you don't care about the examples, and don't intend to run the Python
+test suite, you can recompile Python without Modules/xxsubtype.c.
+
+[zlib]
+['DEFLATED', 'DEF_BUF_SIZE', 'DEF_MEM_LEVEL', 'MAX_WBITS', 'ZLIB_RUNTIME_VERSION', 'ZLIB_VERSION', 'Z_BEST_COMPRESSION', 'Z_BEST_SPEED', 'Z_BLOCK', 'Z_DEFAULT_COMPRESSION', 'Z_DEFAULT_STRATEGY', 'Z_FILTERED', 'Z_FINISH', 'Z_FIXED', 'Z_FULL_FLUSH', 'Z_HUFFMAN_ONLY', 'Z_NO_COMPRESSION', 'Z_NO_FLUSH', 'Z_PARTIAL_FLUSH', 'Z_RLE', 'Z_SYNC_FLUSH', 'Z_TREES', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '__version__', 'adler32', 'compress', 'compressobj', 'crc32', 'decompress', 'decompressobj', 'error']
+
+The functions in this module allow compression and decompression using the
+zlib library, which is based on GNU zip.
+
+adler32(string[, start]) -- Compute an Adler-32 checksum.
+compress(data[, level]) -- Compress data, with compression level 0-9 or -1.
+compressobj([level[, ...]]) -- Return a compressor object.
+crc32(string[, start]) -- Compute a CRC-32 checksum.
+decompress(string,[wbits],[bufsize]) -- Decompresses a compressed string.
+decompressobj([wbits[, zdict]]) -- Return a decompressor object.
+
+'wbits' is window buffer size and container format.
+Compressor objects support compress() and flush() methods; decompressor
+objects support decompress() and flush().
+
+[sys]
+['__breakpointhook__', '__displayhook__', '__doc__', '__excepthook__', '__interactivehook__', '__loader__', '__name__', '__package__', '__spec__', '__stderr__', '__stdin__', '__stdout__', '__unraisablehook__', '_base_executable', '_clear_type_cache', '_current_exceptions', '_current_frames', '_deactivate_opcache', '_debugmallocstats', '_enablelegacywindowsfsencoding', '_framework', '_getframe', '_git', '_home', '_xoptions', 'addaudithook', 'api_version', 'argv', 'audit', 'base_exec_prefix', 'base_prefix', 'breakpointhook', 'builtin_module_names', 'byteorder', 'call_tracing', 'copyright', 'displayhook', 'dllhandle', 'dont_write_bytecode', 'exc_info', 'excepthook', 'exec_prefix', 'executable', 'exit', 'flags', 'float_info', 'float_repr_style', 'get_asyncgen_hooks', 'get_coroutine_origin_tracking_depth', 'getallocatedblocks', 'getdefaultencoding', 'getfilesystemencodeerrors', 'getfilesystemencoding', 'getprofile', 'getrecursionlimit', 'getrefcount', 'getsizeof', 'getswitchinterval', 'gettrace', 'getwindowsversion', 'hash_info', 'hexversion', 'implementation', 'int_info', 'intern', 'is_finalizing', 'maxsize', 'maxunicode', 'meta_path', 'modules', 'orig_argv', 'path', 'path_hooks', 'path_importer_cache', 'platform', 'platlibdir', 'prefix', 'pycache_prefix', 'set_asyncgen_hooks', 'set_coroutine_origin_tracking_depth', 'setprofile', 'setrecursionlimit', 'setswitchinterval', 'settrace', 'stderr', 'stdin', 'stdlib_module_names', 'stdout', 'thread_info', 'unraisablehook', 'version', 'version_info', 'warnoptions', 'winver']
+
+This module provides access to some objects used or maintained by the
+interpreter and to functions that interact strongly with the interpreter.
+
+Dynamic objects:
+
+argv -- command line arguments; argv[0] is the script pathname if known
+path -- module search path; path[0] is the script directory, else ''
+modules -- dictionary of loaded modules
+
+displayhook -- called to show results in an interactive session
+excepthook -- called to handle any uncaught exception other than SystemExit
+  To customize printing in an interactive session or to install a custom
+  top-level exception handler, assign other functions to replace these.
+
+stdin -- standard input file object; used by input()
+stdout -- standard output file object; used by print()
+stderr -- standard error object; used for error messages
+  By assigning other file objects (or objects that behave like files)
+  to these, it is possible to redirect all of the interpreter's I/O.
+
+last_type -- type of last uncaught exception
+last_value -- value of last uncaught exception
+last_traceback -- traceback of last uncaught exception
+  These three are only available in an interactive session after a
+  traceback has been printed.
+
+Static objects:
+
+builtin_module_names -- tuple of module names built into this interpreter
+copyright -- copyright notice pertaining to this interpreter
+exec_prefix -- prefix used to find the machine-specific Python library
+executable -- absolute path of the executable binary of the Python interpreter
+float_info -- a named tuple with information about the float implementation.
+float_repr_style -- string indicating the style of repr() output for floats
+hash_info -- a named tuple with information about the hash algorithm.
+hexversion -- version information encoded as a single integer
+implementation -- Python implementation information.
+int_info -- a named tuple with information about the int implementation.
+maxsize -- the largest supported length of containers.
+maxunicode -- the value of the largest Unicode code point
+platform -- platform identifier
+prefix -- prefix used to find the Python library
+thread_info -- a named tuple with information about the thread implementation.
+version -- the version of this interpreter as a string
+version_info -- version information as a named tuple
+dllhandle -- [Windows only] integer handle of the Python DLL
+winver -- [Windows only] version number of the Python DLL
+_enablelegacywindowsfsencoding -- [Windows only]
+__stdin__ -- the original stdin; don't touch!
+__stdout__ -- the original stdout; don't touch!
+__stderr__ -- the original stderr; don't touch!
+__displayhook__ -- the original displayhook; don't touch!
+__excepthook__ -- the original excepthook; don't touch!
+
+Functions:
+
+displayhook() -- print an object to the screen, and save it in builtins._
+excepthook() -- print an exception and its traceback to sys.stderr
+exc_info() -- return thread-safe information about the current exception
+exit() -- exit the interpreter by raising SystemExit
+getdlopenflags() -- returns flags to be used for dlopen() calls
+getprofile() -- get the global profiling function
+getrefcount() -- return the reference count for an object (plus one :-)
+getrecursionlimit() -- return the max recursion depth for the interpreter
+getsizeof() -- return the size of an object in bytes
+gettrace() -- get the global debug tracing function
+setdlopenflags() -- set the flags to be used for dlopen() calls
+setprofile() -- set the global profiling function
+setrecursionlimit() -- set the max recursion depth for the interpreter
+settrace() -- set the global debug tracing function
+
+
+[builtins]
+['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException', 'BlockingIOError', 'BrokenPipeError', 'BufferError', 'BytesWarning', 'ChildProcessError', 'ConnectionAbortedError', 'ConnectionError', 'ConnectionRefusedError', 'ConnectionResetError', 'DeprecationWarning', 'EOFError', 'Ellipsis', 'EncodingWarning', 'EnvironmentError', 'Exception', 'False', 'FileExistsError', 'FileNotFoundError', 'FloatingPointError', 'FutureWarning', 'GeneratorExit', 'IOError', 'ImportError', 'ImportWarning', 'IndentationError', 'IndexError', 'InterruptedError', 'IsADirectoryError', 'KeyError', 'KeyboardInterrupt', 'LookupError', 'MemoryError', 'ModuleNotFoundError', 'NameError', 'None', 'NotADirectoryError', 'NotImplemented', 'NotImplementedError', 'OSError', 'OverflowError', 'PendingDeprecationWarning', 'PermissionError', 'ProcessLookupError', 'RecursionError', 'ReferenceError', 'ResourceWarning', 'RuntimeError', 'RuntimeWarning', 'StopAsyncIteration', 'StopIteration', 'SyntaxError', 'SyntaxWarning', 'SystemError', 'SystemExit', 'TabError', 'TimeoutError', 'True', 'TypeError', 'UnboundLocalError', 'UnicodeDecodeError', 'UnicodeEncodeError', 'UnicodeError', 'UnicodeTranslateError', 'UnicodeWarning', 'UserWarning', 'ValueError', 'Warning', 'WindowsError', 'ZeroDivisionError', '__build_class__', '__debug__', '__doc__', '__import__', '__loader__', '__name__', '__package__', '__spec__', 'abs', 'aiter', 'all', 'anext', 'any', 'ascii', 'bin', 'bool', 'breakpoint', 'bytearray', 'bytes', 'callable', 'chr', 'classmethod', 'compile', 'complex', 'copyright', 'credits', 'delattr', 'dict', 'dir', 'divmod', 'enumerate', 'eval', 'exec', 'exit', 'filter', 'float', 'format', 'frozenset', 'getattr', 'globals', 'hasattr', 'hash', 'help', 'hex', 'id', 'input', 'int', 'isinstance', 'issubclass', 'iter', 'len', 'license', 'list', 'locals', 'map', 'max', 'memoryview', 'min', 'next', 'object', 'oct', 'open', 'ord', 'pow', 'print', 'property', 'quit', 'range', 'repr', 'reversed', 'round', 'set', 'setattr', 'slice', 'sorted', 'staticmethod', 'str', 'sum', 'super', 'tuple', 'type', 'vars', 'zip']
+
+Built-in functions, exceptions, and other objects.
+
+Noteworthy: None is the `nil' object; Ellipsis represents `...' in slices.
+
+[_frozen_importlib]
+['BuiltinImporter', 'FrozenImporter', 'ModuleSpec', '_DeadlockError', '_DummyModuleLock', '_ERR_MSG', '_ERR_MSG_PREFIX', '_ImportLockContext', '_ModuleLock', '_ModuleLockManager', '_NEEDS_LOADING', '__builtins__', '__doc__', '__file__', '__import__', '__loader__', '__name__', '__package__', '__spec__', '_blocking_on', '_bootstrap_external', '_builtin_from_name', '_calc___package__', '_call_with_frames_removed', '_exec', '_find_and_load', '_find_and_load_unlocked', '_find_spec', '_find_spec_legacy', '_gcd_import', '_get_module_lock', '_handle_fromlist', '_imp', '_init_module_attrs', '_install', '_install_external_importers', '_load', '_load_backward_compatible', '_load_module_shim', '_load_unlocked', '_lock_unlock_module', '_module_locks', '_module_repr', '_module_repr_from_spec', '_new_module', '_object_name', '_requires_builtin', '_requires_frozen', '_resolve_name', '_sanity_check', '_setup', '_spec_from_module', '_thread', '_verbose_message', '_warnings', '_weakref', '_wrap', 'module_from_spec', 'spec_from_loader', 'sys']
+
+Core implementation of import.
+
+This module is NOT meant to be directly imported! It has been designed such
+that it can be bootstrapped into Python as the implementation of import. As
+such it requires the injection of specific modules and attributes in order to
+work. One should use importlib as the public-facing version of this module.
+
+
+
+[_imp]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', '_fix_co_filename', 'acquire_lock', 'check_hash_based_pycs', 'create_builtin', 'create_dynamic', 'exec_builtin', 'exec_dynamic', 'extension_suffixes', 'get_frozen_object', 'init_frozen', 'is_builtin', 'is_frozen', 'is_frozen_package', 'lock_held', 'release_lock', 'source_hash']
+
+(Extremely) low-level import machinery bits as used by importlib and imp.
+
+[_thread]
+['LockType', 'RLock', 'TIMEOUT_MAX', '_ExceptHookArgs', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_count', '_excepthook', '_local', '_set_sentinel', 'allocate', 'allocate_lock', 'error', 'exit', 'exit_thread', 'get_ident', 'get_native_id', 'interrupt_main', 'stack_size', 'start_new', 'start_new_thread']
+
+This module provides primitive operations to write multi-threaded programs.
+The 'threading' module provides a more convenient interface.
+
+[_warnings]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', '_defaultaction', '_filters_mutated', '_onceregistry', 'filters', 'warn', 'warn_explicit']
+
+_warnings provides basic warning filtering support.
+It is a helper module to speed up interpreter start-up.
+
+[_weakref]
+['CallableProxyType', 'ProxyType', 'ReferenceType', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_remove_dead_weakref', 'getweakrefcount', 'getweakrefs', 'proxy', 'ref']
+
+Weak-reference support module.
+
+[_io]
+['BlockingIOError', 'BufferedRWPair', 'BufferedRandom', 'BufferedReader', 'BufferedWriter', 'BytesIO', 'DEFAULT_BUFFER_SIZE', 'FileIO', 'IncrementalNewlineDecoder', 'StringIO', 'TextIOWrapper', 'UnsupportedOperation', '_BufferedIOBase', '_IOBase', '_RawIOBase', '_TextIOBase', '_WindowsConsoleIO', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'open', 'open_code', 'text_encoding']
+
+The io module provides the Python interfaces to stream handling. The
+builtin open function is defined in this module.
+
+At the top of the I/O hierarchy is the abstract base class IOBase. It
+defines the basic interface to a stream. Note, however, that there is no
+separation between reading and writing to streams; implementations are
+allowed to raise an OSError if they do not support a given operation.
+
+Extending IOBase is RawIOBase which deals simply with the reading and
+writing of raw bytes to a stream. FileIO subclasses RawIOBase to provide
+an interface to OS files.
+
+BufferedIOBase deals with buffering on a raw byte stream (RawIOBase). Its
+subclasses, BufferedWriter, BufferedReader, and BufferedRWPair buffer
+streams that are readable, writable, and both respectively.
+BufferedRandom provides a buffered interface to random access
+streams. BytesIO is a simple stream of in-memory bytes.
+
+Another IOBase subclass, TextIOBase, deals with the encoding and decoding
+of streams into text. TextIOWrapper, which extends it, is a buffered text
+interface to a buffered raw stream (`BufferedIOBase`). Finally, StringIO
+is an in-memory stream for text.
+
+Argument names are not part of the specification, and only the arguments
+of open() are intended to be used as keyword arguments.
+
+data:
+
+DEFAULT_BUFFER_SIZE
+
+   An int containing the default buffer size used by the module's buffered
+   I/O classes. open() uses the file's blksize (as obtained by os.stat) if
+   possible.
+
+
+[marshal]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'dump', 'dumps', 'load', 'loads', 'version']
+
+This module contains functions that can read and write Python values in
+a binary format. The format is specific to Python, but independent of
+machine architecture issues.
+
+Not all Python object types are supported; in general, only objects
+whose value is independent from a particular invocation of Python can be
+written and read by this module. The following types are supported:
+None, integers, floating point numbers, strings, bytes, bytearrays,
+tuples, lists, sets, dictionaries, and code objects, where it
+should be understood that tuples, lists and dictionaries are only
+supported as long as the values contained therein are themselves
+supported; and recursive lists and dictionaries should not be written
+(they will cause infinite loops).
+
+Variables:
+
+version -- indicates the format that the module uses. Version 0 is the
+    historical format, version 1 shares interned strings and version 2
+    uses a binary format for floating point numbers.
+    Version 3 shares common object references (New in version 3.4).
+
+Functions:
+
+dump() -- write value to a file
+load() -- read value from a file
+dumps() -- marshal value as a bytes object
+loads() -- read value from a bytes-like object
+
+[nt]
+['DirEntry', 'F_OK', 'O_APPEND', 'O_BINARY', 'O_CREAT', 'O_EXCL', 'O_NOINHERIT', 'O_RANDOM', 'O_RDONLY', 'O_RDWR', 'O_SEQUENTIAL', 'O_SHORT_LIVED', 'O_TEMPORARY', 'O_TEXT', 'O_TRUNC', 'O_WRONLY', 'P_DETACH', 'P_NOWAIT', 'P_NOWAITO', 'P_OVERLAY', 'P_WAIT', 'R_OK', 'TMP_MAX', 'W_OK', 'X_OK', '_LOAD_LIBRARY_SEARCH_APPLICATION_DIR', '_LOAD_LIBRARY_SEARCH_DEFAULT_DIRS', '_LOAD_LIBRARY_SEARCH_DLL_LOAD_DIR', '_LOAD_LIBRARY_SEARCH_SYSTEM32', '_LOAD_LIBRARY_SEARCH_USER_DIRS', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_add_dll_directory', '_exit', '_getdiskusage', '_getfinalpathname', '_getfullpathname', '_getvolumepathname', '_have_functions', '_path_splitroot', '_remove_dll_directory', 'abort', 'access', 'chdir', 'chmod', 'close', 'closerange', 'cpu_count', 'device_encoding', 'dup', 'dup2', 'environ', 'error', 'execv', 'execve', 'fspath', 'fstat', 'fsync', 'ftruncate', 'get_handle_inheritable', 'get_inheritable', 'get_terminal_size', 'getcwd', 'getcwdb', 'getlogin', 'getpid', 'getppid', 'isatty', 'kill', 'link', 'listdir', 'lseek', 'lstat', 'mkdir', 'open', 'pipe', 'putenv', 'read', 'readlink', 'remove', 'rename', 'replace', 'rmdir', 'scandir', 'set_handle_inheritable', 'set_inheritable', 'spawnv', 'spawnve', 'startfile', 'stat', 'stat_result', 'statvfs_result', 'strerror', 'symlink', 'system', 'terminal_size', 'times', 'times_result', 'truncate', 'umask', 'uname_result', 'unlink', 'unsetenv', 'urandom', 'utime', 'waitpid', 'waitstatus_to_exitcode', 'write']
+
+This module provides access to operating system functionality that is
+standardized by the C Standard and the POSIX standard (a thinly
+disguised Unix interface).  Refer to the library manual and
+corresponding Unix manual entries for more information on calls.
+
+[winreg]
+['CloseKey', 'ConnectRegistry', 'CreateKey', 'CreateKeyEx', 'DeleteKey', 'DeleteKeyEx', 'DeleteValue', 'DisableReflectionKey', 'EnableReflectionKey', 'EnumKey', 'EnumValue', 'ExpandEnvironmentStrings', 'FlushKey', 'HKEYType', 'HKEY_CLASSES_ROOT', 'HKEY_CURRENT_CONFIG', 'HKEY_CURRENT_USER', 'HKEY_DYN_DATA', 'HKEY_LOCAL_MACHINE', 'HKEY_PERFORMANCE_DATA', 'HKEY_USERS', 'KEY_ALL_ACCESS', 'KEY_CREATE_LINK', 'KEY_CREATE_SUB_KEY', 'KEY_ENUMERATE_SUB_KEYS', 'KEY_EXECUTE', 'KEY_NOTIFY', 'KEY_QUERY_VALUE', 'KEY_READ', 'KEY_SET_VALUE', 'KEY_WOW64_32KEY', 'KEY_WOW64_64KEY', 'KEY_WRITE', 'LoadKey', 'OpenKey', 'OpenKeyEx', 'QueryInfoKey', 'QueryReflectionKey', 'QueryValue', 'QueryValueEx', 'REG_BINARY', 'REG_CREATED_NEW_KEY', 'REG_DWORD', 'REG_DWORD_BIG_ENDIAN', 'REG_DWORD_LITTLE_ENDIAN', 'REG_EXPAND_SZ', 'REG_FULL_RESOURCE_DESCRIPTOR', 'REG_LEGAL_CHANGE_FILTER', 'REG_LEGAL_OPTION', 'REG_LINK', 'REG_MULTI_SZ', 'REG_NONE', 'REG_NOTIFY_CHANGE_ATTRIBUTES', 'REG_NOTIFY_CHANGE_LAST_SET', 'REG_NOTIFY_CHANGE_NAME', 'REG_NOTIFY_CHANGE_SECURITY', 'REG_NO_LAZY_FLUSH', 'REG_OPENED_EXISTING_KEY', 'REG_OPTION_BACKUP_RESTORE', 'REG_OPTION_CREATE_LINK', 'REG_OPTION_NON_VOLATILE', 'REG_OPTION_OPEN_LINK', 'REG_OPTION_RESERVED', 'REG_OPTION_VOLATILE', 'REG_QWORD', 'REG_QWORD_LITTLE_ENDIAN', 'REG_REFRESH_HIVE', 'REG_RESOURCE_LIST', 'REG_RESOURCE_REQUIREMENTS_LIST', 'REG_SZ', 'REG_WHOLE_HIVE_VOLATILE', 'SaveKey', 'SetValue', 'SetValueEx', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'error']
+
+This module provides access to the Windows registry API.
+
+Functions:
+
+CloseKey() - Closes a registry key.
+ConnectRegistry() - Establishes a connection to a predefined registry handle
+                    on another computer.
+CreateKey() - Creates the specified key, or opens it if it already exists.
+DeleteKey() - Deletes the specified key.
+DeleteValue() - Removes a named value from the specified registry key.
+EnumKey() - Enumerates subkeys of the specified open registry key.
+EnumValue() - Enumerates values of the specified open registry key.
+ExpandEnvironmentStrings() - Expand the env strings in a REG_EXPAND_SZ
+                             string.
+FlushKey() - Writes all the attributes of the specified key to the registry.
+LoadKey() - Creates a subkey under HKEY_USER or HKEY_LOCAL_MACHINE and
+            stores registration information from a specified file into that
+            subkey.
+OpenKey() - Opens the specified key.
+OpenKeyEx() - Alias of OpenKey().
+QueryValue() - Retrieves the value associated with the unnamed value for a
+               specified key in the registry.
+QueryValueEx() - Retrieves the type and data for a specified value name
+                 associated with an open registry key.
+QueryInfoKey() - Returns information about the specified key.
+SaveKey() - Saves the specified key, and all its subkeys a file.
+SetValue() - Associates a value with a specified key.
+SetValueEx() - Stores data in the value field of an open registry key.
+
+Special objects:
+
+HKEYType -- type object for HKEY objects
+error -- exception raised for Win32 errors
+
+Integer constants:
+Many constants are defined - see the documentation for each function
+to see what constants are used, and where.
+
+[_frozen_importlib_external]
+['BYTECODE_SUFFIXES', 'DEBUG_BYTECODE_SUFFIXES', 'EXTENSION_SUFFIXES', 'ExtensionFileLoader', 'FileFinder', 'FileLoader', 'MAGIC_NUMBER', 'OPTIMIZED_BYTECODE_SUFFIXES', 'PathFinder', 'SOURCE_SUFFIXES', 'SourceFileLoader', 'SourceLoader', 'SourcelessFileLoader', 'WindowsRegistryFinder', '_CASE_INSENSITIVE_PLATFORMS', '_CASE_INSENSITIVE_PLATFORMS_BYTES_KEY', '_CASE_INSENSITIVE_PLATFORMS_STR_KEY', '_LoaderBasics', '_MS_WINDOWS', '_NamespaceLoader', '_NamespacePath', '_OPT', '_POPULATE', '_PYCACHE', '_RAW_MAGIC_NUMBER', '__builtins__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_bootstrap', '_calc_mode', '_check_name', '_classify_pyc', '_code_to_hash_pyc', '_code_to_timestamp_pyc', '_code_type', '_compile_bytecode', '_find_module_shim', '_fix_up_module', '_get_cached', '_get_sourcefile', '_get_supported_file_loaders', '_imp', '_install', '_io', '_make_relax_case', '_os', '_pack_uint32', '_path_is_mode_type', '_path_isabs', '_path_isdir', '_path_isfile', '_path_join', '_path_split', '_path_stat', '_pathseps_with_colon', '_relax_case', '_set_bootstrap_module', '_unpack_uint16', '_unpack_uint32', '_validate_hash_pyc', '_validate_timestamp_pyc', '_warnings', '_write_atomic', 'cache_from_source', 'decode_source', 'marshal', 'path_sep', 'path_sep_tuple', 'path_separators', 'source_from_cache', 'spec_from_file_location', 'sys', 'winreg']
+
+Core implementation of path-based import.
+
+This module is NOT meant to be directly imported! It has been designed such
+that it can be bootstrapped into Python as the implementation of import. As
+such it requires the injection of specific modules and attributes in order to
+work. One should use importlib as the public-facing version of this module.
+
+
+
+[time]
+['_STRUCT_TM_ITEMS', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'altzone', 'asctime', 'ctime', 'daylight', 'get_clock_info', 'gmtime', 'localtime', 'mktime', 'monotonic', 'monotonic_ns', 'perf_counter', 'perf_counter_ns', 'process_time', 'process_time_ns', 'sleep', 'strftime', 'strptime', 'struct_time', 'thread_time', 'thread_time_ns', 'time', 'time_ns', 'timezone', 'tzname']
+
+This module provides various functions to manipulate time values.
+
+There are two standard representations of time.  One is the number
+of seconds since the Epoch, in UTC (a.k.a. GMT).  It may be an integer
+or a floating point number (to represent fractions of seconds).
+The Epoch is system-defined; on Unix, it is generally January 1st, 1970.
+The actual value can be retrieved by calling gmtime(0).
+
+The other representation is a tuple of 9 integers giving local time.
+The tuple items are:
+  year (including century, e.g. 1998)
+  month (1-12)
+  day (1-31)
+  hours (0-23)
+  minutes (0-59)
+  seconds (0-59)
+  weekday (0-6, Monday is 0)
+  Julian day (day in the year, 1-366)
+  DST (Daylight Savings Time) flag (-1, 0 or 1)
+If the DST flag is 0, the time is given in the regular time zone;
+if it is 1, the time is given in the DST time zone;
+if it is -1, mktime() should guess based on the date and time.
+
+
+[zipimport]
+['END_CENTRAL_DIR_SIZE', 'MAX_COMMENT_LEN', 'STRING_END_ARCHIVE', 'ZipImportError', '__all__', '__builtins__', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_bootstrap', '_bootstrap_external', '_code_type', '_compile_source', '_eq_mtime', '_get_data', '_get_decompress_func', '_get_module_code', '_get_module_info', '_get_module_path', '_get_mtime_and_size_of_source', '_get_pyc_source', '_imp', '_importing_zlib', '_io', '_is_dir', '_module_type', '_normalize_line_endings', '_parse_dostime', '_read_directory', '_unmarshal_code', '_unpack_uint16', '_unpack_uint32', '_warnings', '_zip_directory_cache', '_zip_searchorder', 'alt_path_sep', 'cp437_table', 'marshal', 'path_sep', 'sys', 'time', 'zipimporter']
+
+zipimport provides support for importing Python modules from Zip archives.
+
+This module exports three objects:
+- zipimporter: a class; its constructor takes a path to a Zip archive.
+- ZipImportError: exception raised by zipimporter objects. It's a
+  subclass of ImportError, so it can be caught as ImportError, too.
+- _zip_directory_cache: a dict, mapping archive paths to zip directory
+  info dicts, as used in zipimporter._files.
+
+It is usually not needed to use the zipimport module explicitly; it is
+used by the builtin import mechanism for sys.path items that are paths
+to Zip archives.
+
+
+[_codecs]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'ascii_decode', 'ascii_encode', 'charmap_build', 'charmap_decode', 'charmap_encode', 'code_page_decode', 'code_page_encode', 'decode', 'encode', 'escape_decode', 'escape_encode', 'latin_1_decode', 'latin_1_encode', 'lookup', 'lookup_error', 'mbcs_decode', 'mbcs_encode', 'oem_decode', 'oem_encode', 'raw_unicode_escape_decode', 'raw_unicode_escape_encode', 'readbuffer_encode', 'register', 'register_error', 'unicode_escape_decode', 'unicode_escape_encode', 'unregister', 'utf_16_be_decode', 'utf_16_be_encode', 'utf_16_decode', 'utf_16_encode', 'utf_16_ex_decode', 'utf_16_le_decode', 'utf_16_le_encode', 'utf_32_be_decode', 'utf_32_be_encode', 'utf_32_decode', 'utf_32_encode', 'utf_32_ex_decode', 'utf_32_le_decode', 'utf_32_le_encode', 'utf_7_decode', 'utf_7_encode', 'utf_8_decode', 'utf_8_encode']
+
+None
+
+[codecs]
+['BOM', 'BOM32_BE', 'BOM32_LE', 'BOM64_BE', 'BOM64_LE', 'BOM_BE', 'BOM_LE', 'BOM_UTF16', 'BOM_UTF16_BE', 'BOM_UTF16_LE', 'BOM_UTF32', 'BOM_UTF32_BE', 'BOM_UTF32_LE', 'BOM_UTF8', 'BufferedIncrementalDecoder', 'BufferedIncrementalEncoder', 'Codec', 'CodecInfo', 'EncodedFile', 'IncrementalDecoder', 'IncrementalEncoder', 'StreamReader', 'StreamReaderWriter', 'StreamRecoder', 'StreamWriter', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_false', 'ascii_decode', 'ascii_encode', 'backslashreplace_errors', 'builtins', 'charmap_build', 'charmap_decode', 'charmap_encode', 'code_page_decode', 'code_page_encode', 'decode', 'encode', 'escape_decode', 'escape_encode', 'getdecoder', 'getencoder', 'getincrementaldecoder', 'getincrementalencoder', 'getreader', 'getwriter', 'ignore_errors', 'iterdecode', 'iterencode', 'latin_1_decode', 'latin_1_encode', 'lookup', 'lookup_error', 'make_encoding_map', 'make_identity_dict', 'mbcs_decode', 'mbcs_encode', 'namereplace_errors', 'oem_decode', 'oem_encode', 'open', 'raw_unicode_escape_decode', 'raw_unicode_escape_encode', 'readbuffer_encode', 'register', 'register_error', 'replace_errors', 'strict_errors', 'sys', 'unicode_escape_decode', 'unicode_escape_encode', 'unregister', 'utf_16_be_decode', 'utf_16_be_encode', 'utf_16_decode', 'utf_16_encode', 'utf_16_ex_decode', 'utf_16_le_decode', 'utf_16_le_encode', 'utf_32_be_decode', 'utf_32_be_encode', 'utf_32_decode', 'utf_32_encode', 'utf_32_ex_decode', 'utf_32_le_decode', 'utf_32_le_encode', 'utf_7_decode', 'utf_7_encode', 'utf_8_decode', 'utf_8_encode', 'xmlcharrefreplace_errors']
+
+ codecs -- Python Codec Registry, API and helpers.
+
+
+Written by Marc-Andre Lemburg (mal@lemburg.com).
+
+(c) Copyright CNRI, All Rights Reserved. NO WARRANTY.
+
+
+
+[encodings.aliases]
+['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'aliases']
+
+ Encoding Aliases Support
+
+    This module is used by the encodings package search function to
+    map encodings names to module names.
+
+    Note that the search function normalizes the encoding names before
+    doing the lookup, so the mapping will have to map normalized
+    encoding names to module names.
+
+    Contents:
+
+        The following aliases dictionary contains mappings of all IANA
+        character set names for which the Python core library provides
+        codecs. In addition to these, a few Python specific codec
+        aliases have also been added.
+
+
+
+[encodings]
+['CodecRegistryError', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__', '_alias_mbcs', '_aliases', '_cache', '_import_tail', '_unknown', 'aliases', 'codecs', 'cp1252', 'normalize_encoding', 'search_function', 'sys', 'utf_8']
+
+ Standard "encodings" Package
+
+    Standard Python encoding modules are stored in this package
+    directory.
+
+    Codec modules must have names corresponding to normalized encoding
+    names as defined in the normalize_encoding() function below, e.g.
+    'utf-8' must be implemented by the module 'utf_8.py'.
+
+    Each codec module must export the following interface:
+
+    * getregentry() -> codecs.CodecInfo object
+    The getregentry() API must return a CodecInfo object with encoder, decoder,
+    incrementalencoder, incrementaldecoder, streamwriter and streamreader
+    attributes which adhere to the Python Codec Interface Standard.
+
+    In addition, a module may optionally also define the following
+    APIs which are then used by the package's codec search function:
+
+    * getaliases() -> sequence of encoding name strings to use as aliases
+
+    Alias names returned by getaliases() must be normalized encoding
+    names as defined by normalize_encoding().
+
+Written by Marc-Andre Lemburg (mal@lemburg.com).
+
+(c) Copyright CNRI, All Rights Reserved. NO WARRANTY.
+
+
+
+[encodings.utf_8]
+['IncrementalDecoder', 'IncrementalEncoder', 'StreamReader', 'StreamWriter', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'codecs', 'decode', 'encode', 'getregentry']
+
+ Python 'utf-8' Codec
+
+
+Written by Marc-Andre Lemburg (mal@lemburg.com).
+
+(c) Copyright CNRI, All Rights Reserved. NO WARRANTY.
+
+
+
+[encodings.cp1252]
+['Codec', 'IncrementalDecoder', 'IncrementalEncoder', 'StreamReader', 'StreamWriter', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'codecs', 'decoding_table', 'encoding_table', 'getregentry']
+
+ Python Character Mapping Codec cp1252 generated from 'MAPPINGS/VENDORS/MICSFT/WINDOWS/CP1252.TXT' with gencodec.py.
+
+
+
+[_signal]
+['CTRL_BREAK_EVENT', 'CTRL_C_EVENT', 'NSIG', 'SIGABRT', 'SIGBREAK', 'SIGFPE', 'SIGILL', 'SIGINT', 'SIGSEGV', 'SIGTERM', 'SIG_DFL', 'SIG_IGN', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'default_int_handler', 'getsignal', 'raise_signal', 'set_wakeup_fd', 'signal', 'strsignal', 'valid_signals']
+
+This module provides mechanisms to use signal handlers in Python.
+
+Functions:
+
+alarm() -- cause SIGALRM after a specified time [Unix only]
+setitimer() -- cause a signal (described below) after a specified
+               float time and the timer may restart then [Unix only]
+getitimer() -- get current value of timer [Unix only]
+signal() -- set the action for a given signal
+getsignal() -- get the signal action for a given signal
+pause() -- wait until a signal arrives [Unix only]
+default_int_handler() -- default SIGINT handler
+
+signal constants:
+SIG_DFL -- used to refer to the system default handler
+SIG_IGN -- used to ignore the signal
+NSIG -- number of defined signals
+SIGINT, SIGTERM, etc. -- signal numbers
+
+itimer constants:
+ITIMER_REAL -- decrements in real time, and delivers SIGALRM upon
+               expiration
+ITIMER_VIRTUAL -- decrements only when the process is executing,
+               and delivers SIGVTALRM upon expiration
+ITIMER_PROF -- decrements both when the process is executing and
+               when the system is executing on behalf of the process.
+               Coupled with ITIMER_VIRTUAL, this timer is usually
+               used to profile the time spent by the application
+               in user and kernel space. SIGPROF is delivered upon
+               expiration.
+
+
+*** IMPORTANT NOTICE ***
+A signal handler function is called with two arguments:
+the first is the signal number, the second is the interrupted stack frame.
+
+[_abc]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', '_abc_init', '_abc_instancecheck', '_abc_register', '_abc_subclasscheck', '_get_dump', '_reset_caches', '_reset_registry', 'get_cache_token']
+
+Module contains faster C implementation of abc.ABCMeta
+
+[abc]
+['ABC', 'ABCMeta', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_abc_init', '_abc_instancecheck', '_abc_register', '_abc_subclasscheck', '_get_dump', '_reset_caches', '_reset_registry', 'abstractclassmethod', 'abstractmethod', 'abstractproperty', 'abstractstaticmethod', 'get_cache_token', 'update_abstractmethods']
+
+Abstract Base Classes (ABCs) according to PEP 3119.
+
+[io]
+['BlockingIOError', 'BufferedIOBase', 'BufferedRWPair', 'BufferedRandom', 'BufferedReader', 'BufferedWriter', 'BytesIO', 'DEFAULT_BUFFER_SIZE', 'FileIO', 'IOBase', 'IncrementalNewlineDecoder', 'RawIOBase', 'SEEK_CUR', 'SEEK_END', 'SEEK_SET', 'StringIO', 'TextIOBase', 'TextIOWrapper', 'UnsupportedOperation', '_WindowsConsoleIO', '__all__', '__author__', '__builtins__', '__cached__', '__doc__', '__file__', '__getattr__', '__loader__', '__name__', '__package__', '__spec__', '_io', 'abc', 'open', 'open_code', 'text_encoding']
+
+The io module provides the Python interfaces to stream handling. The
+builtin open function is defined in this module.
+
+At the top of the I/O hierarchy is the abstract base class IOBase. It
+defines the basic interface to a stream. Note, however, that there is no
+separation between reading and writing to streams; implementations are
+allowed to raise an OSError if they do not support a given operation.
+
+Extending IOBase is RawIOBase which deals simply with the reading and
+writing of raw bytes to a stream. FileIO subclasses RawIOBase to provide
+an interface to OS files.
+
+BufferedIOBase deals with buffering on a raw byte stream (RawIOBase). Its
+subclasses, BufferedWriter, BufferedReader, and BufferedRWPair buffer
+streams that are readable, writable, and both respectively.
+BufferedRandom provides a buffered interface to random access
+streams. BytesIO is a simple stream of in-memory bytes.
+
+Another IOBase subclass, TextIOBase, deals with the encoding and decoding
+of streams into text. TextIOWrapper, which extends it, is a buffered text
+interface to a buffered raw stream (`BufferedIOBase`). Finally, StringIO
+is an in-memory stream for text.
+
+Argument names are not part of the specification, and only the arguments
+of open() are intended to be used as keyword arguments.
+
+data:
+
+DEFAULT_BUFFER_SIZE
+
+   An int containing the default buffer size used by the module's buffered
+   I/O classes. open() uses the file's blksize (as obtained by os.stat) if
+   possible.
+
+
+[__main__]
+['__annotations__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'man', 'sys']
+
+None
+
+[_stat]
+['FILE_ATTRIBUTE_ARCHIVE', 'FILE_ATTRIBUTE_COMPRESSED', 'FILE_ATTRIBUTE_DEVICE', 'FILE_ATTRIBUTE_DIRECTORY', 'FILE_ATTRIBUTE_ENCRYPTED', 'FILE_ATTRIBUTE_HIDDEN', 'FILE_ATTRIBUTE_INTEGRITY_STREAM', 'FILE_ATTRIBUTE_NORMAL', 'FILE_ATTRIBUTE_NOT_CONTENT_INDEXED', 'FILE_ATTRIBUTE_NO_SCRUB_DATA', 'FILE_ATTRIBUTE_OFFLINE', 'FILE_ATTRIBUTE_READONLY', 'FILE_ATTRIBUTE_REPARSE_POINT', 'FILE_ATTRIBUTE_SPARSE_FILE', 'FILE_ATTRIBUTE_SYSTEM', 'FILE_ATTRIBUTE_TEMPORARY', 'FILE_ATTRIBUTE_VIRTUAL', 'IO_REPARSE_TAG_APPEXECLINK', 'IO_REPARSE_TAG_MOUNT_POINT', 'IO_REPARSE_TAG_SYMLINK', 'SF_APPEND', 'SF_ARCHIVED', 'SF_IMMUTABLE', 'SF_NOUNLINK', 'SF_SNAPSHOT', 'ST_ATIME', 'ST_CTIME', 'ST_DEV', 'ST_GID', 'ST_INO', 'ST_MODE', 'ST_MTIME', 'ST_NLINK', 'ST_SIZE', 'ST_UID', 'S_ENFMT', 'S_IEXEC', 'S_IFBLK', 'S_IFCHR', 'S_IFDIR', 'S_IFDOOR', 'S_IFIFO', 'S_IFLNK', 'S_IFMT', 'S_IFPORT', 'S_IFREG', 'S_IFSOCK', 'S_IFWHT', 'S_IMODE', 'S_IREAD', 'S_IRGRP', 'S_IROTH', 'S_IRUSR', 'S_IRWXG', 'S_IRWXO', 'S_IRWXU', 'S_ISBLK', 'S_ISCHR', 'S_ISDIR', 'S_ISDOOR', 'S_ISFIFO', 'S_ISGID', 'S_ISLNK', 'S_ISPORT', 'S_ISREG', 'S_ISSOCK', 'S_ISUID', 'S_ISVTX', 'S_ISWHT', 'S_IWGRP', 'S_IWOTH', 'S_IWRITE', 'S_IWUSR', 'S_IXGRP', 'S_IXOTH', 'S_IXUSR', 'UF_APPEND', 'UF_COMPRESSED', 'UF_HIDDEN', 'UF_IMMUTABLE', 'UF_NODUMP', 'UF_NOUNLINK', 'UF_OPAQUE', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'filemode']
+
+S_IFMT_: file type bits
+S_IFDIR: directory
+S_IFCHR: character device
+S_IFBLK: block device
+S_IFREG: regular file
+S_IFIFO: fifo (named pipe)
+S_IFLNK: symbolic link
+S_IFSOCK: socket file
+S_IFDOOR: door
+S_IFPORT: event port
+S_IFWHT: whiteout
+
+S_ISUID: set UID bit
+S_ISGID: set GID bit
+S_ENFMT: file locking enforcement
+S_ISVTX: sticky bit
+S_IREAD: Unix V7 synonym for S_IRUSR
+S_IWRITE: Unix V7 synonym for S_IWUSR
+S_IEXEC: Unix V7 synonym for S_IXUSR
+S_IRWXU: mask for owner permissions
+S_IRUSR: read by owner
+S_IWUSR: write by owner
+S_IXUSR: execute by owner
+S_IRWXG: mask for group permissions
+S_IRGRP: read by group
+S_IWGRP: write by group
+S_IXGRP: execute by group
+S_IRWXO: mask for others (not in group) permissions
+S_IROTH: read by others
+S_IWOTH: write by others
+S_IXOTH: execute by others
+
+UF_NODUMP: do not dump file
+UF_IMMUTABLE: file may not be changed
+UF_APPEND: file may only be appended to
+UF_OPAQUE: directory is opaque when viewed through a union stack
+UF_NOUNLINK: file may not be renamed or deleted
+UF_COMPRESSED: OS X: file is hfs-compressed
+UF_HIDDEN: OS X: file should not be displayed
+SF_ARCHIVED: file may be archived
+SF_IMMUTABLE: file may not be changed
+SF_APPEND: file may only be appended to
+SF_NOUNLINK: file may not be renamed or deleted
+SF_SNAPSHOT: file is a snapshot file
+
+ST_MODE
+ST_INO
+ST_DEV
+ST_NLINK
+ST_UID
+ST_GID
+ST_SIZE
+ST_ATIME
+ST_MTIME
+ST_CTIME
+
+FILE_ATTRIBUTE_*: Windows file attribute constants
+                   (only present on Windows)
+
+
+[stat]
+['FILE_ATTRIBUTE_ARCHIVE', 'FILE_ATTRIBUTE_COMPRESSED', 'FILE_ATTRIBUTE_DEVICE', 'FILE_ATTRIBUTE_DIRECTORY', 'FILE_ATTRIBUTE_ENCRYPTED', 'FILE_ATTRIBUTE_HIDDEN', 'FILE_ATTRIBUTE_INTEGRITY_STREAM', 'FILE_ATTRIBUTE_NORMAL', 'FILE_ATTRIBUTE_NOT_CONTENT_INDEXED', 'FILE_ATTRIBUTE_NO_SCRUB_DATA', 'FILE_ATTRIBUTE_OFFLINE', 'FILE_ATTRIBUTE_READONLY', 'FILE_ATTRIBUTE_REPARSE_POINT', 'FILE_ATTRIBUTE_SPARSE_FILE', 'FILE_ATTRIBUTE_SYSTEM', 'FILE_ATTRIBUTE_TEMPORARY', 'FILE_ATTRIBUTE_VIRTUAL', 'IO_REPARSE_TAG_APPEXECLINK', 'IO_REPARSE_TAG_MOUNT_POINT', 'IO_REPARSE_TAG_SYMLINK', 'SF_APPEND', 'SF_ARCHIVED', 'SF_IMMUTABLE', 'SF_NOUNLINK', 'SF_SNAPSHOT', 'ST_ATIME', 'ST_CTIME', 'ST_DEV', 'ST_GID', 'ST_INO', 'ST_MODE', 'ST_MTIME', 'ST_NLINK', 'ST_SIZE', 'ST_UID', 'S_ENFMT', 'S_IEXEC', 'S_IFBLK', 'S_IFCHR', 'S_IFDIR', 'S_IFDOOR', 'S_IFIFO', 'S_IFLNK', 'S_IFMT', 'S_IFPORT', 'S_IFREG', 'S_IFSOCK', 'S_IFWHT', 'S_IMODE', 'S_IREAD', 'S_IRGRP', 'S_IROTH', 'S_IRUSR', 'S_IRWXG', 'S_IRWXO', 'S_IRWXU', 'S_ISBLK', 'S_ISCHR', 'S_ISDIR', 'S_ISDOOR', 'S_ISFIFO', 'S_ISGID', 'S_ISLNK', 'S_ISPORT', 'S_ISREG', 'S_ISSOCK', 'S_ISUID', 'S_ISVTX', 'S_ISWHT', 'S_IWGRP', 'S_IWOTH', 'S_IWRITE', 'S_IWUSR', 'S_IXGRP', 'S_IXOTH', 'S_IXUSR', 'UF_APPEND', 'UF_COMPRESSED', 'UF_HIDDEN', 'UF_IMMUTABLE', 'UF_NODUMP', 'UF_NOUNLINK', 'UF_OPAQUE', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_filemode_table', 'filemode']
+
+Constants/functions for interpreting results of os.stat() and os.lstat().
+
+Suggested usage: from stat import *
+
+
+[_collections_abc]
+['ABCMeta', 'AsyncGenerator', 'AsyncIterable', 'AsyncIterator', 'Awaitable', 'ByteString', 'Callable', 'Collection', 'Container', 'Coroutine', 'EllipsisType', 'FunctionType', 'Generator', 'GenericAlias', 'Hashable', 'ItemsView', 'Iterable', 'Iterator', 'KeysView', 'Mapping', 'MappingView', 'MutableMapping', 'MutableSequence', 'MutableSet', 'Reversible', 'Sequence', 'Set', 'Sized', 'ValuesView', '_CallableGenericAlias', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_check_methods', '_is_param_expr', '_is_typevarlike', '_type_repr', 'abstractmethod', 'async_generator', 'bytearray_iterator', 'bytes_iterator', 'coroutine', 'dict_itemiterator', 'dict_items', 'dict_keyiterator', 'dict_keys', 'dict_valueiterator', 'dict_values', 'generator', 'list_iterator', 'list_reverseiterator', 'longrange_iterator', 'mappingproxy', 'range_iterator', 'set_iterator', 'str_iterator', 'sys', 'tuple_iterator', 'zip_iterator']
+
+Abstract Base Classes (ABCs) for collections, according to PEP 3119.
+
+Unit tests are in test_collections.
+
+
+[genericpath]
+['__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_check_arg_types', '_splitext', 'commonprefix', 'exists', 'getatime', 'getctime', 'getmtime', 'getsize', 'isdir', 'isfile', 'os', 'samefile', 'sameopenfile', 'samestat', 'stat']
+
+
+Path operations common to more than one OS
+Do not use directly.  The OS specific modules import the appropriate
+functions from this module themselves.
+
+
+[ntpath]
+['__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_abspath_fallback', '_get_bothseps', '_getfinalpathname', '_getfinalpathname_nonstrict', '_getfullpathname', '_getvolumepathname', '_nt_readlink', '_readlink_deep', 'abspath', 'altsep', 'basename', 'commonpath', 'commonprefix', 'curdir', 'defpath', 'devnull', 'dirname', 'exists', 'expanduser', 'expandvars', 'extsep', 'genericpath', 'getatime', 'getctime', 'getmtime', 'getsize', 'isabs', 'isdir', 'isfile', 'islink', 'ismount', 'join', 'lexists', 'normcase', 'normpath', 'os', 'pardir', 'pathsep', 'realpath', 'relpath', 'samefile', 'sameopenfile', 'samestat', 'sep', 'split', 'splitdrive', 'splitext', 'stat', 'supports_unicode_filenames', 'sys']
+
+Common pathname manipulations, WindowsNT/95 version.
+
+Instead of importing this module directly, import os and refer to this
+module as os.path.
+
+
+[os.path]
+['__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_abspath_fallback', '_get_bothseps', '_getfinalpathname', '_getfinalpathname_nonstrict', '_getfullpathname', '_getvolumepathname', '_nt_readlink', '_readlink_deep', 'abspath', 'altsep', 'basename', 'commonpath', 'commonprefix', 'curdir', 'defpath', 'devnull', 'dirname', 'exists', 'expanduser', 'expandvars', 'extsep', 'genericpath', 'getatime', 'getctime', 'getmtime', 'getsize', 'isabs', 'isdir', 'isfile', 'islink', 'ismount', 'join', 'lexists', 'normcase', 'normpath', 'os', 'pardir', 'pathsep', 'realpath', 'relpath', 'samefile', 'sameopenfile', 'samestat', 'sep', 'split', 'splitdrive', 'splitext', 'stat', 'supports_unicode_filenames', 'sys']
+
+Common pathname manipulations, WindowsNT/95 version.
+
+Instead of importing this module directly, import os and refer to this
+module as os.path.
+
+
+[os]
+['DirEntry', 'F_OK', 'GenericAlias', 'Mapping', 'MutableMapping', 'O_APPEND', 'O_BINARY', 'O_CREAT', 'O_EXCL', 'O_NOINHERIT', 'O_RANDOM', 'O_RDONLY', 'O_RDWR', 'O_SEQUENTIAL', 'O_SHORT_LIVED', 'O_TEMPORARY', 'O_TEXT', 'O_TRUNC', 'O_WRONLY', 'P_DETACH', 'P_NOWAIT', 'P_NOWAITO', 'P_OVERLAY', 'P_WAIT', 'PathLike', 'R_OK', 'SEEK_CUR', 'SEEK_END', 'SEEK_SET', 'TMP_MAX', 'W_OK', 'X_OK', '_AddedDllDirectory', '_Environ', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_check_methods', '_execvpe', '_exists', '_exit', '_fspath', '_get_exports_list', '_walk', '_wrap_close', 'abc', 'abort', 'access', 'add_dll_directory', 'altsep', 'chdir', 'chmod', 'close', 'closerange', 'cpu_count', 'curdir', 'defpath', 'device_encoding', 'devnull', 'dup', 'dup2', 'environ', 'error', 'execl', 'execle', 'execlp', 'execlpe', 'execv', 'execve', 'execvp', 'execvpe', 'extsep', 'fdopen', 'fsdecode', 'fsencode', 'fspath', 'fstat', 'fsync', 'ftruncate', 'get_exec_path', 'get_handle_inheritable', 'get_inheritable', 'get_terminal_size', 'getcwd', 'getcwdb', 'getenv', 'getlogin', 'getpid', 'getppid', 'isatty', 'kill', 'linesep', 'link', 'listdir', 'lseek', 'lstat', 'makedirs', 'mkdir', 'name', 'open', 'pardir', 'path', 'pathsep', 'pipe', 'popen', 'putenv', 'read', 'readlink', 'remove', 'removedirs', 'rename', 'renames', 'replace', 'rmdir', 'scandir', 'sep', 'set_handle_inheritable', 'set_inheritable', 'spawnl', 'spawnle', 'spawnv', 'spawnve', 'st', 'startfile', 'stat', 'stat_result', 'statvfs_result', 'strerror', 'supports_bytes_environ', 'supports_dir_fd', 'supports_effective_ids', 'supports_fd', 'supports_follow_symlinks', 'symlink', 'sys', 'system', 'terminal_size', 'times', 'times_result', 'truncate', 'umask', 'uname_result', 'unlink', 'unsetenv', 'urandom', 'utime', 'waitpid', 'waitstatus_to_exitcode', 'walk', 'write']
+
+OS routines for NT or Posix depending on what system we're on.
+
+This exports:
+  - all functions from posix or nt, e.g. unlink, stat, etc.
+  - os.path is either posixpath or ntpath
+  - os.name is either 'posix' or 'nt'
+  - os.curdir is a string representing the current directory (always '.')
+  - os.pardir is a string representing the parent directory (always '..')
+  - os.sep is the (or a most common) pathname separator ('/' or '\\')
+  - os.extsep is the extension separator (always '.')
+  - os.altsep is the alternate pathname separator (None or '/')
+  - os.pathsep is the component separator used in $PATH etc
+  - os.linesep is the line separator in text files ('\r' or '\n' or '\r\n')
+  - os.defpath is the default search path for executables
+  - os.devnull is the file path of the null device ('/dev/null', etc.)
+
+Programs that import and use 'os' stand a better chance of being
+portable between different platforms.  Of course, they must then
+only use functions that are defined by all platforms (e.g., unlink
+and opendir), and leave all pathname manipulation to os.path
+(e.g., split and join).
+
+
+[_sitebuiltins]
+['Quitter', '_Helper', '_Printer', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'sys']
+
+
+The objects used by the site module to add custom builtins.
+
+
+[types]
+['AsyncGeneratorType', 'BuiltinFunctionType', 'BuiltinMethodType', 'CellType', 'ClassMethodDescriptorType', 'CodeType', 'CoroutineType', 'DynamicClassAttribute', 'EllipsisType', 'FrameType', 'FunctionType', 'GeneratorType', 'GenericAlias', 'GetSetDescriptorType', 'LambdaType', 'MappingProxyType', 'MemberDescriptorType', 'MethodDescriptorType', 'MethodType', 'MethodWrapperType', 'ModuleType', 'NoneType', 'NotImplementedType', 'SimpleNamespace', 'TracebackType', 'UnionType', 'WrapperDescriptorType', '_GeneratorWrapper', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_calculate_meta', '_cell_factory', 'coroutine', 'new_class', 'prepare_class', 'resolve_bases']
+
+
+Define names for built-in types that aren't directly accessible as a builtin.
+
+
+[importlib._bootstrap]
+['BuiltinImporter', 'FrozenImporter', 'ModuleSpec', '_DeadlockError', '_DummyModuleLock', '_ERR_MSG', '_ERR_MSG_PREFIX', '_ImportLockContext', '_ModuleLock', '_ModuleLockManager', '_NEEDS_LOADING', '__builtins__', '__doc__', '__file__', '__import__', '__loader__', '__name__', '__package__', '__spec__', '_blocking_on', '_bootstrap_external', '_builtin_from_name', '_calc___package__', '_call_with_frames_removed', '_exec', '_find_and_load', '_find_and_load_unlocked', '_find_spec', '_find_spec_legacy', '_gcd_import', '_get_module_lock', '_handle_fromlist', '_imp', '_init_module_attrs', '_install', '_install_external_importers', '_load', '_load_backward_compatible', '_load_module_shim', '_load_unlocked', '_lock_unlock_module', '_module_locks', '_module_repr', '_module_repr_from_spec', '_new_module', '_object_name', '_requires_builtin', '_requires_frozen', '_resolve_name', '_sanity_check', '_setup', '_spec_from_module', '_thread', '_verbose_message', '_warnings', '_weakref', '_wrap', 'module_from_spec', 'spec_from_loader', 'sys']
+
+Core implementation of import.
+
+This module is NOT meant to be directly imported! It has been designed such
+that it can be bootstrapped into Python as the implementation of import. As
+such it requires the injection of specific modules and attributes in order to
+work. One should use importlib as the public-facing version of this module.
+
+
+
+[importlib._bootstrap_external]
+['BYTECODE_SUFFIXES', 'DEBUG_BYTECODE_SUFFIXES', 'EXTENSION_SUFFIXES', 'ExtensionFileLoader', 'FileFinder', 'FileLoader', 'MAGIC_NUMBER', 'OPTIMIZED_BYTECODE_SUFFIXES', 'PathFinder', 'SOURCE_SUFFIXES', 'SourceFileLoader', 'SourceLoader', 'SourcelessFileLoader', 'WindowsRegistryFinder', '_CASE_INSENSITIVE_PLATFORMS', '_CASE_INSENSITIVE_PLATFORMS_BYTES_KEY', '_CASE_INSENSITIVE_PLATFORMS_STR_KEY', '_LoaderBasics', '_MS_WINDOWS', '_NamespaceLoader', '_NamespacePath', '_OPT', '_POPULATE', '_PYCACHE', '_RAW_MAGIC_NUMBER', '__builtins__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_bootstrap', '_calc_mode', '_check_name', '_classify_pyc', '_code_to_hash_pyc', '_code_to_timestamp_pyc', '_code_type', '_compile_bytecode', '_find_module_shim', '_fix_up_module', '_get_cached', '_get_sourcefile', '_get_supported_file_loaders', '_imp', '_install', '_io', '_make_relax_case', '_os', '_pack_uint32', '_path_is_mode_type', '_path_isabs', '_path_isdir', '_path_isfile', '_path_join', '_path_split', '_path_stat', '_pathseps_with_colon', '_relax_case', '_set_bootstrap_module', '_unpack_uint16', '_unpack_uint32', '_validate_hash_pyc', '_validate_timestamp_pyc', '_warnings', '_write_atomic', 'cache_from_source', 'decode_source', 'marshal', 'path_sep', 'path_sep_tuple', 'path_separators', 'source_from_cache', 'spec_from_file_location', 'sys', 'winreg']
+
+Core implementation of path-based import.
+
+This module is NOT meant to be directly imported! It has been designed such
+that it can be bootstrapped into Python as the implementation of import. As
+such it requires the injection of specific modules and attributes in order to
+work. One should use importlib as the public-facing version of this module.
+
+
+
+[warnings]
+['WarningMessage', '_OptionError', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_add_filter', '_defaultaction', '_filters_mutated', '_formatwarning_orig', '_formatwarnmsg', '_formatwarnmsg_impl', '_getaction', '_getcategory', '_is_internal_frame', '_next_external_frame', '_onceregistry', '_processoptions', '_setoption', '_showwarning_orig', '_showwarnmsg', '_showwarnmsg_impl', '_warn_unawaited_coroutine', 'catch_warnings', 'defaultaction', 'filters', 'filterwarnings', 'formatwarning', 'onceregistry', 'resetwarnings', 'showwarning', 'simplefilter', 'sys', 'warn', 'warn_explicit']
+
+Python part of the warnings subsystem.
+
+[importlib]
+['_RELOADING', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__import__', '__loader__', '__name__', '__package__', '__path__', '__spec__', '_abc', '_bootstrap', '_bootstrap_external', '_imp', '_pack_uint32', '_unpack_uint32', 'find_loader', 'import_module', 'invalidate_caches', 'machinery', 'reload', 'sys', 'util', 'warnings']
+
+A pure Python implementation of import.
+
+[importlib._abc]
+['Loader', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_bootstrap', 'abc', 'warnings']
+
+Subset of importlib.abc used to reduce importlib.util imports.
+
+[itertools]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', '_grouper', '_tee', '_tee_dataobject', 'accumulate', 'chain', 'combinations', 'combinations_with_replacement', 'compress', 'count', 'cycle', 'dropwhile', 'filterfalse', 'groupby', 'islice', 'pairwise', 'permutations', 'product', 'repeat', 'starmap', 'takewhile', 'tee', 'zip_longest']
+
+Functional tools for creating and using iterators.
+
+Infinite iterators:
+count(start=0, step=1) --> start, start+step, start+2*step, ...
+cycle(p) --> p0, p1, ... plast, p0, p1, ...
+repeat(elem [,n]) --> elem, elem, elem, ... endlessly or up to n times
+
+Iterators terminating on the shortest input sequence:
+accumulate(p[, func]) --> p0, p0+p1, p0+p1+p2
+chain(p, q, ...) --> p0, p1, ... plast, q0, q1, ...
+chain.from_iterable([p, q, ...]) --> p0, p1, ... plast, q0, q1, ...
+compress(data, selectors) --> (d[0] if s[0]), (d[1] if s[1]), ...
+dropwhile(pred, seq) --> seq[n], seq[n+1], starting when pred fails
+groupby(iterable[, keyfunc]) --> sub-iterators grouped by value of keyfunc(v)
+filterfalse(pred, seq) --> elements of seq where pred(elem) is False
+islice(seq, [start,] stop [, step]) --> elements from
+       seq[start:stop:step]
+pairwise(s) --> (s[0],s[1]), (s[1],s[2]), (s[2], s[3]), ...
+starmap(fun, seq) --> fun(*seq[0]), fun(*seq[1]), ...
+tee(it, n=2) --> (it1, it2 , ... itn) splits one iterator into n
+takewhile(pred, seq) --> seq[0], seq[1], until pred fails
+zip_longest(p, q, ...) --> (p[0], q[0]), (p[1], q[1]), ...
+
+Combinatoric generators:
+product(p, q, ... [repeat=1]) --> cartesian product
+permutations(p[, r])
+combinations(p, r)
+combinations_with_replacement(p, r)
+
+
+[keyword]
+['__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'iskeyword', 'issoftkeyword', 'kwlist', 'softkwlist']
+
+Keywords (from "Grammar/python.gram")
+
+This file is automatically generated; please don't muck it up!
+
+To update the symbols in this file, 'cd' to the top directory of
+the python source tree and run:
+
+    PYTHONPATH=Tools/peg_generator python3 -m pegen.keywordgen         Grammar/python.gram         Grammar/Tokens         Lib/keyword.py
+
+Alternatively, you can run 'make regen-keyword'.
+
+
+[_operator]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', '_compare_digest', 'abs', 'add', 'and_', 'attrgetter', 'concat', 'contains', 'countOf', 'delitem', 'eq', 'floordiv', 'ge', 'getitem', 'gt', 'iadd', 'iand', 'iconcat', 'ifloordiv', 'ilshift', 'imatmul', 'imod', 'imul', 'index', 'indexOf', 'inv', 'invert', 'ior', 'ipow', 'irshift', 'is_', 'is_not', 'isub', 'itemgetter', 'itruediv', 'ixor', 'le', 'length_hint', 'lshift', 'lt', 'matmul', 'methodcaller', 'mod', 'mul', 'ne', 'neg', 'not_', 'or_', 'pos', 'pow', 'rshift', 'setitem', 'sub', 'truediv', 'truth', 'xor']
+
+Operator interface.
+
+This module exports a set of functions implemented in C corresponding
+to the intrinsic operators of Python.  For example, operator.add(x, y)
+is equivalent to the expression x+y.  The function names are those
+used for special methods; variants without leading and trailing
+'__' are also provided for convenience.
+
+[operator]
+['__abs__', '__add__', '__all__', '__and__', '__builtins__', '__cached__', '__concat__', '__contains__', '__delitem__', '__doc__', '__eq__', '__file__', '__floordiv__', '__ge__', '__getitem__', '__gt__', '__iadd__', '__iand__', '__iconcat__', '__ifloordiv__', '__ilshift__', '__imatmul__', '__imod__', '__imul__', '__index__', '__inv__', '__invert__', '__ior__', '__ipow__', '__irshift__', '__isub__', '__itruediv__', '__ixor__', '__le__', '__loader__', '__lshift__', '__lt__', '__matmul__', '__mod__', '__mul__', '__name__', '__ne__', '__neg__', '__not__', '__or__', '__package__', '__pos__', '__pow__', '__rshift__', '__setitem__', '__spec__', '__sub__', '__truediv__', '__xor__', '_abs', 'abs', 'add', 'and_', 'attrgetter', 'concat', 'contains', 'countOf', 'delitem', 'eq', 'floordiv', 'ge', 'getitem', 'gt', 'iadd', 'iand', 'iconcat', 'ifloordiv', 'ilshift', 'imatmul', 'imod', 'imul', 'index', 'indexOf', 'inv', 'invert', 'ior', 'ipow', 'irshift', 'is_', 'is_not', 'isub', 'itemgetter', 'itruediv', 'ixor', 'le', 'length_hint', 'lshift', 'lt', 'matmul', 'methodcaller', 'mod', 'mul', 'ne', 'neg', 'not_', 'or_', 'pos', 'pow', 'rshift', 'setitem', 'sub', 'truediv', 'truth', 'xor']
+
+Operator interface.
+
+This module exports a set of functions implemented in C corresponding
+to the intrinsic operators of Python.  For example, operator.add(x, y)
+is equivalent to the expression x+y.  The function names are those
+used for special methods; variants without leading and trailing
+'__' are also provided for convenience.
+
+[reprlib]
+['Repr', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_possibly_sorted', 'aRepr', 'builtins', 'get_ident', 'islice', 'recursive_repr', 'repr']
+
+Redo the builtin repr() (representation) but with limits on most sizes.
+
+[_collections]
+['OrderedDict', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_count_elements', '_deque_iterator', '_deque_reverse_iterator', '_tuplegetter', 'defaultdict', 'deque']
+
+High performance data structures.
+- deque:        ordered collection accessible from endpoints only
+- defaultdict:  dict subclass with a default value factory
+
+
+[collections]
+['ChainMap', 'Counter', 'OrderedDict', 'UserDict', 'UserList', 'UserString', '_Link', '_OrderedDictItemsView', '_OrderedDictKeysView', '_OrderedDictValuesView', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__', '_chain', '_collections_abc', '_count_elements', '_eq', '_iskeyword', '_itemgetter', '_proxy', '_recursive_repr', '_repeat', '_starmap', '_sys', '_tuplegetter', 'abc', 'defaultdict', 'deque', 'namedtuple']
+
+This module implements specialized container datatypes providing
+alternatives to Python's general purpose built-in containers, dict,
+list, set, and tuple.
+
+* namedtuple   factory function for creating tuple subclasses with named fields
+* deque        list-like container with fast appends and pops on either end
+* ChainMap     dict-like class for creating a single view of multiple mappings
+* Counter      dict subclass for counting hashable objects
+* OrderedDict  dict subclass that remembers the order entries were added
+* defaultdict  dict subclass that calls a factory function to supply missing values
+* UserDict     wrapper around dictionary objects for easier dict subclassing
+* UserList     wrapper around list objects for easier list subclassing
+* UserString   wrapper around string objects for easier string subclassing
+
+
+
+[_functools]
+['KeyWrapper', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_lru_cache_wrapper', 'cmp_to_key', 'partial', 'reduce']
+
+Tools that operate on functions.
+
+[functools]
+['GenericAlias', 'RLock', 'WRAPPER_ASSIGNMENTS', 'WRAPPER_UPDATES', '_CacheInfo', '_HashedSeq', '_NOT_FOUND', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_c3_merge', '_c3_mro', '_compose_mro', '_convert', '_find_impl', '_ge_from_gt', '_ge_from_le', '_ge_from_lt', '_gt_from_ge', '_gt_from_le', '_gt_from_lt', '_initial_missing', '_le_from_ge', '_le_from_gt', '_le_from_lt', '_lru_cache_wrapper', '_lt_from_ge', '_lt_from_gt', '_lt_from_le', '_make_key', '_unwrap_partial', 'cache', 'cached_property', 'cmp_to_key', 'get_cache_token', 'lru_cache', 'namedtuple', 'partial', 'partialmethod', 'recursive_repr', 'reduce', 'singledispatch', 'singledispatchmethod', 'total_ordering', 'update_wrapper', 'wraps']
+
+functools.py - Tools for working with functions and callable objects
+
+
+[contextlib]
+['AbstractAsyncContextManager', 'AbstractContextManager', 'AsyncContextDecorator', 'AsyncExitStack', 'ContextDecorator', 'ExitStack', 'GenericAlias', 'MethodType', '_AsyncGeneratorContextManager', '_BaseExitStack', '_GeneratorContextManager', '_GeneratorContextManagerBase', '_RedirectStream', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_collections_abc', 'abc', 'aclosing', 'asynccontextmanager', 'closing', 'contextmanager', 'deque', 'nullcontext', 'redirect_stderr', 'redirect_stdout', 'suppress', 'sys', 'wraps']
+
+Utilities for with-statement contexts.  See PEP 343.
+
+[importlib.util]
+['LazyLoader', 'Loader', 'MAGIC_NUMBER', '_LazyModule', '_RAW_MAGIC_NUMBER', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_find_spec', '_find_spec_from_path', '_imp', '_module_to_load', '_resolve_name', 'cache_from_source', 'contextmanager', 'decode_source', 'find_spec', 'functools', 'module_for_loader', 'module_from_spec', 'resolve_name', 'set_loader', 'set_package', 'source_from_cache', 'source_hash', 'spec_from_file_location', 'spec_from_loader', 'sys', 'types', 'warnings']
+
+Utility code for constructing importers, etc.
+
+[importlib.machinery]
+['BYTECODE_SUFFIXES', 'BuiltinImporter', 'DEBUG_BYTECODE_SUFFIXES', 'EXTENSION_SUFFIXES', 'ExtensionFileLoader', 'FileFinder', 'FrozenImporter', 'ModuleSpec', 'OPTIMIZED_BYTECODE_SUFFIXES', 'PathFinder', 'SOURCE_SUFFIXES', 'SourceFileLoader', 'SourcelessFileLoader', 'WindowsRegistryFinder', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'all_suffixes']
+
+The machinery of importlib: finders, loaders, hooks, etc.
+
+[mpl_toolkits]
+['__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__']
+
+None
+
+[site]
+['ENABLE_USER_SITE', 'PREFIXES', 'USER_BASE', 'USER_SITE', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_get_path', '_getuserbase', '_init_pathinfo', '_script', '_sitebuiltins', '_trace', 'abs_paths', 'addpackage', 'addsitedir', 'addsitepackages', 'addusersitepackages', 'builtins', 'check_enableusersite', 'enablerlcompleter', 'execsitecustomize', 'execusercustomize', 'getsitepackages', 'getuserbase', 'getusersitepackages', 'io', 'main', 'makepath', 'os', 'removeduppaths', 'setcopyright', 'sethelper', 'setquit', 'sys', 'venv']
+
+Append module search paths for third-party packages to sys.path.
+
+****************************************************************
+* This module is automatically imported during initialization. *
+****************************************************************
+
+This will append site-specific paths to the module search path.  On
+Unix (including Mac OSX), it starts with sys.prefix and
+sys.exec_prefix (if different) and appends
+lib/python<version>/site-packages.
+On other platforms (such as Windows), it tries each of the
+prefixes directly, as well as with lib/site-packages appended.  The
+resulting directories, if they exist, are appended to sys.path, and
+also inspected for path configuration files.
+
+If a file named "pyvenv.cfg" exists one directory above sys.executable,
+sys.prefix and sys.exec_prefix are set to that directory and
+it is also checked for site-packages (sys.base_prefix and
+sys.base_exec_prefix will always be the "real" prefixes of the Python
+installation). If "pyvenv.cfg" (a bootstrap configuration file) contains
+the key "include-system-site-packages" set to anything other than "false"
+(case-insensitive), the system-level prefixes will still also be
+searched for site-packages; otherwise they won't.
+
+All of the resulting site-specific directories, if they exist, are
+appended to sys.path, and also inspected for path configuration
+files.
+
+A path configuration file is a file whose name has the form
+<package>.pth; its contents are additional directories (one per line)
+to be added to sys.path.  Non-existing directories (or
+non-directories) are never added to sys.path; no directory is added to
+sys.path more than once.  Blank lines and lines beginning with
+'#' are skipped. Lines starting with 'import' are executed.
+
+For example, suppose sys.prefix and sys.exec_prefix are set to
+/usr/local and there is a directory /usr/local/lib/python2.5/site-packages
+with three subdirectories, foo, bar and spam, and two path
+configuration files, foo.pth and bar.pth.  Assume foo.pth contains the
+following:
+
+  # foo package configuration
+  foo
+  bar
+  bletch
+
+and bar.pth contains:
+
+  # bar package configuration
+  bar
+
+Then the following directories are added to sys.path, in this order:
+
+  /usr/local/lib/python2.5/site-packages/bar
+  /usr/local/lib/python2.5/site-packages/foo
+
+Note that bletch is omitted because it doesn't exist; bar precedes foo
+because bar.pth comes alphabetically before foo.pth; and spam is
+omitted because it is not mentioned in either path configuration file.
+
+The readline module is also automatically configured to enable
+completion for systems that support it.  This can be overridden in
+sitecustomize, usercustomize or PYTHONSTARTUP.  Starting Python in
+isolated mode (-I) disables automatic readline configuration.
+
+After these operations, an attempt is made to import a module
+named sitecustomize, which can perform arbitrary additional
+site-specific customizations.  If this import fails with an
+ImportError exception, it is silently ignored.
+
+
+[_ast]
+['AST', 'Add', 'And', 'AnnAssign', 'Assert', 'Assign', 'AsyncFor', 'AsyncFunctionDef', 'AsyncWith', 'Attribute', 'AugAssign', 'Await', 'BinOp', 'BitAnd', 'BitOr', 'BitXor', 'BoolOp', 'Break', 'Call', 'ClassDef', 'Compare', 'Constant', 'Continue', 'Del', 'Delete', 'Dict', 'DictComp', 'Div', 'Eq', 'ExceptHandler', 'Expr', 'Expression', 'FloorDiv', 'For', 'FormattedValue', 'FunctionDef', 'FunctionType', 'GeneratorExp', 'Global', 'Gt', 'GtE', 'If', 'IfExp', 'Import', 'ImportFrom', 'In', 'Interactive', 'Invert', 'Is', 'IsNot', 'JoinedStr', 'LShift', 'Lambda', 'List', 'ListComp', 'Load', 'Lt', 'LtE', 'MatMult', 'Match', 'MatchAs', 'MatchClass', 'MatchMapping', 'MatchOr', 'MatchSequence', 'MatchSingleton', 'MatchStar', 'MatchValue', 'Mod', 'Module', 'Mult', 'Name', 'NamedExpr', 'Nonlocal', 'Not', 'NotEq', 'NotIn', 'Or', 'Pass', 'Pow', 'PyCF_ALLOW_TOP_LEVEL_AWAIT', 'PyCF_ONLY_AST', 'PyCF_TYPE_COMMENTS', 'RShift', 'Raise', 'Return', 'Set', 'SetComp', 'Slice', 'Starred', 'Store', 'Sub', 'Subscript', 'Try', 'Tuple', 'TypeIgnore', 'UAdd', 'USub', 'UnaryOp', 'While', 'With', 'Yield', 'YieldFrom', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'alias', 'arg', 'arguments', 'boolop', 'cmpop', 'comprehension', 'excepthandler', 'expr', 'expr_context', 'keyword', 'match_case', 'mod', 'operator', 'pattern', 'stmt', 'type_ignore', 'unaryop', 'withitem']
+
+None
+
+[_bisect]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'bisect_left', 'bisect_right', 'insort_left', 'insort_right']
+
+Bisection algorithms.
+
+This module provides support for maintaining a list in sorted order without
+having to sort the list after each insertion. For long lists of items with
+expensive comparison operations, this can be an improvement over the more
+common approach.
+
+
+[_blake2]
+['BLAKE2B_MAX_DIGEST_SIZE', 'BLAKE2B_MAX_KEY_SIZE', 'BLAKE2B_PERSON_SIZE', 'BLAKE2B_SALT_SIZE', 'BLAKE2S_MAX_DIGEST_SIZE', 'BLAKE2S_MAX_KEY_SIZE', 'BLAKE2S_PERSON_SIZE', 'BLAKE2S_SALT_SIZE', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'blake2b', 'blake2s']
+
+_blake2b provides BLAKE2b for hashlib
+
+
+[_codecs_cn]
+['__doc__', '__loader__', '__map_gb18030ext', '__map_gb2312', '__map_gbcommon', '__map_gbkext', '__name__', '__package__', '__spec__', 'getcodec']
+
+None
+
+[_codecs_hk]
+['__doc__', '__loader__', '__map_big5hkscs', '__map_big5hkscs_bmp', '__map_big5hkscs_nonbmp', '__name__', '__package__', '__spec__', 'getcodec']
+
+None
+
+[_codecs_iso2022]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'getcodec']
+
+None
+
+[_codecs_jp]
+['__doc__', '__loader__', '__map_cp932ext', '__map_jisx0208', '__map_jisx0212', '__map_jisx0213_1_bmp', '__map_jisx0213_1_emp', '__map_jisx0213_2_bmp', '__map_jisx0213_2_emp', '__map_jisx0213_bmp', '__map_jisx0213_emp', '__map_jisx0213_pair', '__map_jisxcommon', '__name__', '__package__', '__spec__', 'getcodec']
+
+None
+
+[_codecs_kr]
+['__doc__', '__loader__', '__map_cp949', '__map_cp949ext', '__map_ksx1001', '__name__', '__package__', '__spec__', 'getcodec']
+
+None
+
+[_codecs_tw]
+['__doc__', '__loader__', '__map_big5', '__map_cp950ext', '__name__', '__package__', '__spec__', 'getcodec']
+
+None
+
+[_contextvars]
+['Context', 'ContextVar', 'Token', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'copy_context']
+
+Context Variables
+
+[_csv]
+['Dialect', 'Error', 'QUOTE_ALL', 'QUOTE_MINIMAL', 'QUOTE_NONE', 'QUOTE_NONNUMERIC', 'Reader', 'Writer', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '__version__', '_dialects', 'field_size_limit', 'get_dialect', 'list_dialects', 'reader', 'register_dialect', 'unregister_dialect', 'writer']
+
+CSV parsing and writing.
+
+This module provides classes that assist in the reading and writing
+of Comma Separated Value (CSV) files, and implements the interface
+described by PEP 305.  Although many CSV files are simple to parse,
+the format is not formally defined by a stable specification and
+is subtle enough that parsing lines of a CSV file with something
+like line.split(",") is bound to fail.  The module supports three
+basic APIs: reading, writing, and registration of dialects.
+
+
+DIALECT REGISTRATION:
+
+Readers and writers support a dialect argument, which is a convenient
+handle on a group of settings.  When the dialect argument is a string,
+it identifies one of the dialects previously registered with the module.
+If it is a class or instance, the attributes of the argument are used as
+the settings for the reader or writer:
+
+    class excel:
+        delimiter = ','
+        quotechar = '"'
+        escapechar = None
+        doublequote = True
+        skipinitialspace = False
+        lineterminator = '\r\n'
+        quoting = QUOTE_MINIMAL
+
+SETTINGS:
+
+    * quotechar - specifies a one-character string to use as the
+        quoting character.  It defaults to '"'.
+    * delimiter - specifies a one-character string to use as the
+        field separator.  It defaults to ','.
+    * skipinitialspace - specifies how to interpret whitespace which
+        immediately follows a delimiter.  It defaults to False, which
+        means that whitespace immediately following a delimiter is part
+        of the following field.
+    * lineterminator -  specifies the character sequence which should
+        terminate rows.
+    * quoting - controls when quotes should be generated by the writer.
+        It can take on any of the following module constants:
+
+        csv.QUOTE_MINIMAL means only when required, for example, when a
+            field contains either the quotechar or the delimiter
+        csv.QUOTE_ALL means that quotes are always placed around fields.
+        csv.QUOTE_NONNUMERIC means that quotes are always placed around
+            fields which do not parse as integers or floating point
+            numbers.
+        csv.QUOTE_NONE means that quotes are never placed around fields.
+    * escapechar - specifies a one-character string used to escape
+        the delimiter when quoting is set to QUOTE_NONE.
+    * doublequote - controls the handling of quotes inside fields.  When
+        True, two consecutive quotes are interpreted as one during read,
+        and when writing, each quote character embedded in the data is
+        written as two quotes
+
+
+[_datetime]
+['MAXYEAR', 'MINYEAR', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'date', 'datetime', 'datetime_CAPI', 'time', 'timedelta', 'timezone', 'tzinfo']
+
+Fast implementation of the datetime type.
+
+[_heapq]
+['__about__', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_heapify_max', '_heappop_max', '_heapreplace_max', 'heapify', 'heappop', 'heappush', 'heappushpop', 'heapreplace']
+
+Heap queue algorithm (a.k.a. priority queue).
+
+Heaps are arrays for which a[k] <= a[2*k+1] and a[k] <= a[2*k+2] for
+all k, counting elements from 0.  For the sake of comparison,
+non-existing elements are considered to be infinite.  The interesting
+property of a heap is that a[0] is always its smallest element.
+
+Usage:
+
+heap = []            # creates an empty heap
+heappush(heap, item) # pushes a new item on the heap
+item = heappop(heap) # pops the smallest item from the heap
+item = heap[0]       # smallest item on the heap without popping it
+heapify(x)           # transforms list into a heap, in-place, in linear time
+item = heapreplace(heap, item) # pops and returns smallest item, and adds
+                               # new item; the heap size is unchanged
+
+Our API differs from textbook heap algorithms as follows:
+
+- We use 0-based indexing.  This makes the relationship between the
+  index for a node and the indexes for its children slightly less
+  obvious, but is more suitable since Python uses 0-based indexing.
+
+- Our heappop() method returns the smallest item, not the largest.
+
+These two make it possible to view the heap as a regular Python list
+without surprises: heap[0] is the smallest item, and heap.sort()
+maintains the heap invariant!
+
+
+[_json]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'encode_basestring', 'encode_basestring_ascii', 'make_encoder', 'make_scanner', 'scanstring']
+
+json speedups
+
+
+[_locale]
+['CHAR_MAX', 'Error', 'LC_ALL', 'LC_COLLATE', 'LC_CTYPE', 'LC_MONETARY', 'LC_NUMERIC', 'LC_TIME', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_get_locale_encoding', '_getdefaultlocale', 'localeconv', 'setlocale', 'strcoll', 'strxfrm']
+
+Support for POSIX locales.
+
+[_lsprof]
+['Profiler', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'profiler_entry', 'profiler_subentry']
+
+Fast profiler
+
+[_md5]
+['MD5Type', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'md5']
+
+None
+
+[_multibytecodec]
+['MultibyteIncrementalDecoder', 'MultibyteIncrementalEncoder', 'MultibyteStreamReader', 'MultibyteStreamWriter', '__create_codec', '__doc__', '__loader__', '__name__', '__package__', '__spec__']
+
+None
+
+[_opcode]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'stack_effect']
+
+Opcode support module.
+
+[copyreg]
+['_HEAPTYPE', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__newobj__', '__newobj_ex__', '__package__', '__spec__', '_extension_cache', '_extension_registry', '_inverted_registry', '_new_type', '_reconstructor', '_reduce_ex', '_slotnames', 'add_extension', 'clear_extension_cache', 'constructor', 'dispatch_table', 'pickle', 'pickle_complex', 'pickle_union', 'remove_extension']
+
+Helper to provide extensibility for pickle.
+
+This is only useful to add pickle support for extension types defined in
+C, not for instances of user-defined classes.
+
+
+[_compat_pickle]
+['IMPORT_MAPPING', 'MULTIPROCESSING_EXCEPTIONS', 'NAME_MAPPING', 'PYTHON2_EXCEPTIONS', 'PYTHON3_IMPORTERROR_EXCEPTIONS', 'PYTHON3_OSERROR_EXCEPTIONS', 'REVERSE_IMPORT_MAPPING', 'REVERSE_NAME_MAPPING', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'excname']
+
+None
+
+[_pickle]
+['PickleBuffer', 'PickleError', 'Pickler', 'PicklingError', 'Unpickler', 'UnpicklingError', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'dump', 'dumps', 'load', 'loads']
+
+Optimized C implementation for the Python pickle module.
+
+[_random]
+['Random', '__doc__', '__loader__', '__name__', '__package__', '__spec__']
+
+Module implements the Mersenne Twister random number generator.
+
+[_sha1]
+['SHA1Type', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'sha1']
+
+None
+
+[_sha256]
+['SHA224Type', 'SHA256Type', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'sha224', 'sha256']
+
+None
+
+[_sha3]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'implementation', 'keccakopt', 'sha3_224', 'sha3_256', 'sha3_384', 'sha3_512', 'shake_128', 'shake_256']
+
+None
+
+[_sha512]
+['SHA384Type', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'sha384', 'sha512']
+
+None
+
+[_sre]
+['CODESIZE', 'MAGIC', 'MAXGROUPS', 'MAXREPEAT', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'ascii_iscased', 'ascii_tolower', 'compile', 'copyright', 'getcodesize', 'unicode_iscased', 'unicode_tolower']
+
+None
+
+[_statistics]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', '_normal_dist_inv_cdf']
+
+Accelerators for the statistics module.
+
+
+[_string]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'formatter_field_name_split', 'formatter_parser']
+
+string helper module
+
+[_struct]
+['Struct', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_clearcache', 'calcsize', 'error', 'iter_unpack', 'pack', 'pack_into', 'unpack', 'unpack_from']
+
+Functions to convert between Python values and C structs.
+Python bytes objects are used to hold the data representing the C struct
+and also as format strings (explained below) to describe the layout of data
+in the C struct.
+
+The optional first format char indicates byte order, size and alignment:
+  @: native order, size & alignment (default)
+  =: native order, std. size & alignment
+  <: little-endian, std. size & alignment
+  >: big-endian, std. size & alignment
+  !: same as >
+
+The remaining chars indicate types of args and must match exactly;
+these can be preceded by a decimal repeat count:
+  x: pad byte (no data); c:char; b:signed byte; B:unsigned byte;
+  ?: _Bool (requires C99; if not available, char is used instead)
+  h:short; H:unsigned short; i:int; I:unsigned int;
+  l:long; L:unsigned long; f:float; d:double; e:half-float.
+Special cases (preceding decimal count indicates length):
+  s:string (array of char); p: pascal string (with count byte).
+Special cases (only available in native format):
+  n:ssize_t; N:size_t;
+  P:an integer type that is wide enough to hold a pointer.
+Special case (not in native mode unless 'long long' in platform C):
+  q:long long; Q:unsigned long long
+Whitespace between formats is ignored.
+
+The variable struct.error is an exception raised on errors.
+
+
+[_symtable]
+['CELL', 'DEF_ANNOT', 'DEF_BOUND', 'DEF_FREE', 'DEF_FREE_CLASS', 'DEF_GLOBAL', 'DEF_IMPORT', 'DEF_LOCAL', 'DEF_NONLOCAL', 'DEF_PARAM', 'FREE', 'GLOBAL_EXPLICIT', 'GLOBAL_IMPLICIT', 'LOCAL', 'SCOPE_MASK', 'SCOPE_OFF', 'TYPE_CLASS', 'TYPE_FUNCTION', 'TYPE_MODULE', 'USE', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'symtable']
+
+None
+
+[_tracemalloc]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', '_get_object_traceback', '_get_traces', 'clear_traces', 'get_traceback_limit', 'get_traced_memory', 'get_tracemalloc_memory', 'is_tracing', 'reset_peak', 'start', 'stop']
+
+Debug module to trace memory blocks allocated by Python.
+
+[_winapi]
+['ABOVE_NORMAL_PRIORITY_CLASS', 'BELOW_NORMAL_PRIORITY_CLASS', 'CREATE_BREAKAWAY_FROM_JOB', 'CREATE_DEFAULT_ERROR_MODE', 'CREATE_NEW_CONSOLE', 'CREATE_NEW_PROCESS_GROUP', 'CREATE_NO_WINDOW', 'CloseHandle', 'ConnectNamedPipe', 'CreateFile', 'CreateFileMapping', 'CreateJunction', 'CreateNamedPipe', 'CreatePipe', 'CreateProcess', 'DETACHED_PROCESS', 'DUPLICATE_CLOSE_SOURCE', 'DUPLICATE_SAME_ACCESS', 'DuplicateHandle', 'ERROR_ALREADY_EXISTS', 'ERROR_BROKEN_PIPE', 'ERROR_IO_PENDING', 'ERROR_MORE_DATA', 'ERROR_NETNAME_DELETED', 'ERROR_NO_DATA', 'ERROR_NO_SYSTEM_RESOURCES', 'ERROR_OPERATION_ABORTED', 'ERROR_PIPE_BUSY', 'ERROR_PIPE_CONNECTED', 'ERROR_SEM_TIMEOUT', 'ExitProcess', 'FILE_FLAG_FIRST_PIPE_INSTANCE', 'FILE_FLAG_OVERLAPPED', 'FILE_GENERIC_READ', 'FILE_GENERIC_WRITE', 'FILE_MAP_ALL_ACCESS', 'FILE_MAP_COPY', 'FILE_MAP_EXECUTE', 'FILE_MAP_READ', 'FILE_MAP_WRITE', 'FILE_TYPE_CHAR', 'FILE_TYPE_DISK', 'FILE_TYPE_PIPE', 'FILE_TYPE_REMOTE', 'FILE_TYPE_UNKNOWN', 'GENERIC_READ', 'GENERIC_WRITE', 'GetACP', 'GetCurrentProcess', 'GetExitCodeProcess', 'GetFileType', 'GetLastError', 'GetModuleFileName', 'GetStdHandle', 'GetVersion', 'HIGH_PRIORITY_CLASS', 'IDLE_PRIORITY_CLASS', 'INFINITE', 'INVALID_HANDLE_VALUE', 'MEM_COMMIT', 'MEM_FREE', 'MEM_IMAGE', 'MEM_MAPPED', 'MEM_PRIVATE', 'MEM_RESERVE', 'MapViewOfFile', 'NMPWAIT_WAIT_FOREVER', 'NORMAL_PRIORITY_CLASS', 'NULL', 'OPEN_EXISTING', 'OpenFileMapping', 'OpenProcess', 'Overlapped', 'PAGE_EXECUTE', 'PAGE_EXECUTE_READ', 'PAGE_EXECUTE_READWRITE', 'PAGE_EXECUTE_WRITECOPY', 'PAGE_GUARD', 'PAGE_NOACCESS', 'PAGE_NOCACHE', 'PAGE_READONLY', 'PAGE_READWRITE', 'PAGE_WRITECOMBINE', 'PAGE_WRITECOPY', 'PIPE_ACCESS_DUPLEX', 'PIPE_ACCESS_INBOUND', 'PIPE_READMODE_MESSAGE', 'PIPE_TYPE_MESSAGE', 'PIPE_UNLIMITED_INSTANCES', 'PIPE_WAIT', 'PROCESS_ALL_ACCESS', 'PROCESS_DUP_HANDLE', 'PeekNamedPipe', 'REALTIME_PRIORITY_CLASS', 'ReadFile', 'SEC_COMMIT', 'SEC_IMAGE', 'SEC_LARGE_PAGES', 'SEC_NOCACHE', 'SEC_RESERVE', 'SEC_WRITECOMBINE', 'STARTF_USESHOWWINDOW', 'STARTF_USESTDHANDLES', 'STD_ERROR_HANDLE', 'STD_INPUT_HANDLE', 'STD_OUTPUT_HANDLE', 'STILL_ACTIVE', 'SW_HIDE', 'SYNCHRONIZE', 'SetNamedPipeHandleState', 'TerminateProcess', 'VirtualQuerySize', 'WAIT_ABANDONED_0', 'WAIT_OBJECT_0', 'WAIT_TIMEOUT', 'WaitForMultipleObjects', 'WaitForSingleObject', 'WaitNamedPipe', 'WriteFile', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_mimetypes_read_windows_registry']
+
+None
+
+[_xxsubinterpreters]
+['ChannelClosedError', 'ChannelEmptyError', 'ChannelError', 'ChannelID', 'ChannelNotEmptyError', 'ChannelNotFoundError', 'InterpreterID', 'RunFailedError', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_channel_id', 'channel_close', 'channel_create', 'channel_destroy', 'channel_list_all', 'channel_list_interpreters', 'channel_recv', 'channel_release', 'channel_send', 'create', 'destroy', 'get_current', 'get_main', 'is_running', 'is_shareable', 'list_all', 'run_string']
+
+This module provides primitive operations to manage Python interpreters.
+The 'interpreters' module provides a more convenient interface.
+
+[collections.abc]
+['AsyncGenerator', 'AsyncIterable', 'AsyncIterator', 'Awaitable', 'ByteString', 'Callable', 'Collection', 'Container', 'Coroutine', 'Generator', 'Hashable', 'ItemsView', 'Iterable', 'Iterator', 'KeysView', 'Mapping', 'MappingView', 'MutableMapping', 'MutableSequence', 'MutableSet', 'Reversible', 'Sequence', 'Set', 'Sized', 'ValuesView', '_CallableGenericAlias', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__']
+
+None
+
+[array]
+['ArrayType', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_array_reconstructor', 'array', 'typecodes']
+
+This module defines an object type which can efficiently represent
+an array of basic values: characters, integers, floating point
+numbers.  Arrays are sequence types and behave very much like lists,
+except that the type of objects stored in them is constrained.
+
+
+[atexit]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', '_clear', '_ncallbacks', '_run_exitfuncs', 'register', 'unregister']
+
+allow programmer to define multiple exit functions to be executed
+upon normal program termination.
+
+Two public functions, register and unregister, are defined.
+
+
+[audioop]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'add', 'adpcm2lin', 'alaw2lin', 'avg', 'avgpp', 'bias', 'byteswap', 'cross', 'error', 'findfactor', 'findfit', 'findmax', 'getsample', 'lin2adpcm', 'lin2alaw', 'lin2lin', 'lin2ulaw', 'max', 'maxpp', 'minmax', 'mul', 'ratecv', 'reverse', 'rms', 'tomono', 'tostereo', 'ulaw2lin']
+
+None
+
+[binascii]
+['Error', 'Incomplete', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'a2b_base64', 'a2b_hex', 'a2b_hqx', 'a2b_qp', 'a2b_uu', 'b2a_base64', 'b2a_hex', 'b2a_hqx', 'b2a_qp', 'b2a_uu', 'crc32', 'crc_hqx', 'hexlify', 'rlecode_hqx', 'rledecode_hqx', 'unhexlify']
+
+Conversion between binary data and ASCII
+
+[cmath]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atanh', 'cos', 'cosh', 'e', 'exp', 'inf', 'infj', 'isclose', 'isfinite', 'isinf', 'isnan', 'log', 'log10', 'nan', 'nanj', 'phase', 'pi', 'polar', 'rect', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'tau']
+
+This module provides access to mathematical functions for complex
+numbers.
+
+[errno]
+['E2BIG', 'EACCES', 'EADDRINUSE', 'EADDRNOTAVAIL', 'EAFNOSUPPORT', 'EAGAIN', 'EALREADY', 'EBADF', 'EBADMSG', 'EBUSY', 'ECANCELED', 'ECHILD', 'ECONNABORTED', 'ECONNREFUSED', 'ECONNRESET', 'EDEADLK', 'EDEADLOCK', 'EDESTADDRREQ', 'EDOM', 'EDQUOT', 'EEXIST', 'EFAULT', 'EFBIG', 'EHOSTDOWN', 'EHOSTUNREACH', 'EIDRM', 'EILSEQ', 'EINPROGRESS', 'EINTR', 'EINVAL', 'EIO', 'EISCONN', 'EISDIR', 'ELOOP', 'EMFILE', 'EMLINK', 'EMSGSIZE', 'ENAMETOOLONG', 'ENETDOWN', 'ENETRESET', 'ENETUNREACH', 'ENFILE', 'ENOBUFS', 'ENODATA', 'ENODEV', 'ENOENT', 'ENOEXEC', 'ENOLCK', 'ENOLINK', 'ENOMEM', 'ENOMSG', 'ENOPROTOOPT', 'ENOSPC', 'ENOSR', 'ENOSTR', 'ENOSYS', 'ENOTCONN', 'ENOTDIR', 'ENOTEMPTY', 'ENOTRECOVERABLE', 'ENOTSOCK', 'ENOTSUP', 'ENOTTY', 'ENXIO', 'EOPNOTSUPP', 'EOVERFLOW', 'EOWNERDEAD', 'EPERM', 'EPFNOSUPPORT', 'EPIPE', 'EPROTO', 'EPROTONOSUPPORT', 'EPROTOTYPE', 'ERANGE', 'EREMOTE', 'EROFS', 'ESHUTDOWN', 'ESOCKTNOSUPPORT', 'ESPIPE', 'ESRCH', 'ESTALE', 'ETIME', 'ETIMEDOUT', 'ETOOMANYREFS', 'ETXTBSY', 'EUSERS', 'EWOULDBLOCK', 'EXDEV', 'WSABASEERR', 'WSAEACCES', 'WSAEADDRINUSE', 'WSAEADDRNOTAVAIL', 'WSAEAFNOSUPPORT', 'WSAEALREADY', 'WSAEBADF', 'WSAECONNABORTED', 'WSAECONNREFUSED', 'WSAECONNRESET', 'WSAEDESTADDRREQ', 'WSAEDISCON', 'WSAEDQUOT', 'WSAEFAULT', 'WSAEHOSTDOWN', 'WSAEHOSTUNREACH', 'WSAEINPROGRESS', 'WSAEINTR', 'WSAEINVAL', 'WSAEISCONN', 'WSAELOOP', 'WSAEMFILE', 'WSAEMSGSIZE', 'WSAENAMETOOLONG', 'WSAENETDOWN', 'WSAENETRESET', 'WSAENETUNREACH', 'WSAENOBUFS', 'WSAENOPROTOOPT', 'WSAENOTCONN', 'WSAENOTEMPTY', 'WSAENOTSOCK', 'WSAEOPNOTSUPP', 'WSAEPFNOSUPPORT', 'WSAEPROCLIM', 'WSAEPROTONOSUPPORT', 'WSAEPROTOTYPE', 'WSAEREMOTE', 'WSAESHUTDOWN', 'WSAESOCKTNOSUPPORT', 'WSAESTALE', 'WSAETIMEDOUT', 'WSAETOOMANYREFS', 'WSAEUSERS', 'WSAEWOULDBLOCK', 'WSANOTINITIALISED', 'WSASYSNOTREADY', 'WSAVERNOTSUPPORTED', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'errorcode']
+
+This module makes available standard errno system symbols.
+
+The value of each symbol is the corresponding integer value,
+e.g., on most systems, errno.ENOENT equals the integer 2.
+
+The dictionary errno.errorcode maps numeric codes to symbol names,
+e.g., errno.errorcode[2] could be the string 'ENOENT'.
+
+Symbols that are not relevant to the underlying system are not defined.
+
+To map error codes to error messages, use the function os.strerror(),
+e.g. os.strerror(2) could return 'No such file or directory'.
+
+[faulthandler]
+['_EXCEPTION_ACCESS_VIOLATION', '_EXCEPTION_INT_DIVIDE_BY_ZERO', '_EXCEPTION_NONCONTINUABLE', '_EXCEPTION_NONCONTINUABLE_EXCEPTION', '_EXCEPTION_STACK_OVERFLOW', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '_fatal_error_c_thread', '_raise_exception', '_read_null', '_sigabrt', '_sigfpe', '_sigsegv', 'cancel_dump_traceback_later', 'disable', 'dump_traceback', 'dump_traceback_later', 'enable', 'is_enabled']
+
+faulthandler module.
+
+[gc]
+['DEBUG_COLLECTABLE', 'DEBUG_LEAK', 'DEBUG_SAVEALL', 'DEBUG_STATS', 'DEBUG_UNCOLLECTABLE', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'callbacks', 'collect', 'disable', 'enable', 'freeze', 'garbage', 'get_count', 'get_debug', 'get_freeze_count', 'get_objects', 'get_referents', 'get_referrers', 'get_stats', 'get_threshold', 'is_finalized', 'is_tracked', 'isenabled', 'set_debug', 'set_threshold', 'unfreeze']
+
+This module provides access to the garbage collector for reference cycles.
+
+enable() -- Enable automatic garbage collection.
+disable() -- Disable automatic garbage collection.
+isenabled() -- Returns true if automatic collection is enabled.
+collect() -- Do a full collection right now.
+get_count() -- Return the current collection counts.
+get_stats() -- Return list of dictionaries containing per-generation stats.
+set_debug() -- Set debugging flags.
+get_debug() -- Get debugging flags.
+set_threshold() -- Set the collection thresholds.
+get_threshold() -- Return the current the collection thresholds.
+get_objects() -- Return a list of all objects tracked by the collector.
+is_tracked() -- Returns true if a given object is tracked.
+is_finalized() -- Returns true if a given object has been already finalized.
+get_referrers() -- Return the list of objects that refer to an object.
+get_referents() -- Return the list of objects that an object refers to.
+freeze() -- Freeze all tracked objects and ignore them for future collections.
+unfreeze() -- Unfreeze all objects in the permanent generation.
+get_freeze_count() -- Return the number of objects in the permanent generation.
+
+
+[math]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 'atanh', 'ceil', 'comb', 'copysign', 'cos', 'cosh', 'degrees', 'dist', 'e', 'erf', 'erfc', 'exp', 'expm1', 'fabs', 'factorial', 'floor', 'fmod', 'frexp', 'fsum', 'gamma', 'gcd', 'hypot', 'inf', 'isclose', 'isfinite', 'isinf', 'isnan', 'isqrt', 'lcm', 'ldexp', 'lgamma', 'log', 'log10', 'log1p', 'log2', 'modf', 'nan', 'nextafter', 'perm', 'pi', 'pow', 'prod', 'radians', 'remainder', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'tau', 'trunc', 'ulp']
+
+This module provides access to the mathematical functions
+defined by the C standard.
+
+[mmap]
+['ACCESS_COPY', 'ACCESS_DEFAULT', 'ACCESS_READ', 'ACCESS_WRITE', 'ALLOCATIONGRANULARITY', 'PAGESIZE', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'error', 'mmap']
+
+None
+
+[msvcrt]
+['CRT_ASSEMBLY_VERSION', 'GetErrorMode', 'LK_LOCK', 'LK_NBLCK', 'LK_NBRLCK', 'LK_RLCK', 'LK_UNLCK', 'SEM_FAILCRITICALERRORS', 'SEM_NOALIGNMENTFAULTEXCEPT', 'SEM_NOGPFAULTERRORBOX', 'SEM_NOOPENFILEERRORBOX', 'SetErrorMode', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'get_osfhandle', 'getch', 'getche', 'getwch', 'getwche', 'heapmin', 'kbhit', 'locking', 'open_osfhandle', 'putch', 'putwch', 'setmode', 'ungetch', 'ungetwch']
+
+None
+
+[xxsubtype]
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'bench', 'spamdict', 'spamlist']
+
+xxsubtype is an example module showing how to subtype builtin types from C.
+test_descr.py in the standard test suite requires it in order to complete.
+If you don't care about the examples, and don't intend to run the Python
+test suite, you can recompile Python without Modules/xxsubtype.c.
+
+[zlib]
+['DEFLATED', 'DEF_BUF_SIZE', 'DEF_MEM_LEVEL', 'MAX_WBITS', 'ZLIB_RUNTIME_VERSION', 'ZLIB_VERSION', 'Z_BEST_COMPRESSION', 'Z_BEST_SPEED', 'Z_BLOCK', 'Z_DEFAULT_COMPRESSION', 'Z_DEFAULT_STRATEGY', 'Z_FILTERED', 'Z_FINISH', 'Z_FIXED', 'Z_FULL_FLUSH', 'Z_HUFFMAN_ONLY', 'Z_NO_COMPRESSION', 'Z_NO_FLUSH', 'Z_PARTIAL_FLUSH', 'Z_RLE', 'Z_SYNC_FLUSH', 'Z_TREES', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '__version__', 'adler32', 'compress', 'compressobj', 'crc32', 'decompress', 'decompressobj', 'error']
+
+The functions in this module allow compression and decompression using the
+zlib library, which is based on GNU zip.
+
+adler32(string[, start]) -- Compute an Adler-32 checksum.
+compress(data[, level]) -- Compress data, with compression level 0-9 or -1.
+compressobj([level[, ...]]) -- Return a compressor object.
+crc32(string[, start]) -- Compute a CRC-32 checksum.
+decompress(string,[wbits],[bufsize]) -- Decompresses a compressed string.
+decompressobj([wbits[, zdict]]) -- Return a decompressor object.
+
+'wbits' is window buffer size and container format.
+Compressor objects support compress() and flush() methods; decompressor
+objects support decompress() and flush().
+
