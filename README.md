@@ -1,4 +1,4 @@
 # cuda
-Introductory NVidia CUDA NVCC Compilation Test Example demonstrating pointer usage and "SLI"
+cuobjdump and nvdisasm tools for diagnostics of .exe and .cubin executable files
 
 ![screenshot](/screenshot.png)
