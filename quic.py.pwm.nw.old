@@ -1,0 +1,161 @@
+#Sipeed MaixPy MicroPython v0.6.2-84-g8fcd84a58 on 2022-08-26; Sipeed_M1 with kendryte-k210
+from Maix import GPIO
+from fpioa_manager import fm
+from machine import Timer, PWM
+import random
+
+PIN_R = 9
+PIN_V = 33
+PIN_G = 11
+PIN_B = 14
+
+fm.fpioa.set_function(PIN_R, fm.fpioa.GPIO1)
+fm.fpioa.set_function(PIN_V, fm.fpioa.GPIO2)
+fm.fpioa.set_function(PIN_G, fm.fpioa.GPIO3)
+fm.fpioa.set_function(PIN_B, fm.fpioa.GPIO4)
+
+tr = Timer(Timer.TIMER2, Timer.CHANNEL0, mode = Timer.MODE_PWM)
+tv = Timer(Timer.TIMER2, Timer.CHANNEL1, mode = Timer.MODE_PWM)
+tg = Timer(Timer.TIMER2, Timer.CHANNEL2, mode = Timer.MODE_PWM)
+tb = Timer(Timer.TIMER2, Timer.CHANNEL3, mode = Timer.MODE_PWM)
+
+pr = PWM(tr, freq = 60, duty = 50, pin = PIN_R)
+pv = PWM(tv, freq = 60, duty = 50, pin = PIN_V)
+pg = PWM(tg, freq = 60, duty = 50, pin = PIN_G)
+pb = PWM(tb, freq = 60, duty = 50, pin = PIN_B)
+
+#r = GPIO(GPIO.GPIO1, GPIO.OUT)
+#v = GPIO(GPIO.GPIO2, GPIO.OUT)
+#g = GPIO(GPIO.GPIO3, GPIO.OUT)
+#b = GPIO(GPIO.GPIO4, GPIO.OUT)
+
+#r.value(1 - (1))
+#v.value(1 - (0))
+#g.value(1 - (0))
+#b.value(1 - (0))
+
+pr.duty(100 - ( 0.1 ))
+pv.duty(100 - ( 0.0 ))
+pg.duty(100 - ( 0.0 ))
+pb.duty(100 - ( 0.0 ))
+
+#pr.freq(120)
+#pr.freq(120)
+#pr.freq(120)
+#pr.freq(120)
+
+quic_server = \
+[
+    "QUIC_STREAM_EVENT_SEND_COMPLETE",
+    "QUIC_STREAM_EVENT_RECEIVE",
+    "QUIC_STREAM_EVENT_PEER_SEND_SHUTDOWN",
+    "QUIC_STREAM_EVENT_PEER_SEND_ABORTED",
+    "QUIC_STREAM_EVENT_SHUTDOWN_COMPLETE",
+
+    "QUIC_CONNECTION_EVENT_CONNECTED",
+    "QUIC_CONNECTION_EVENT_SHUTDOWN_INITIATED_BY_TRANSPORT",
+    "QUIC_CONNECTION_EVENT_SHUTDOWN_INITIATED_BY_PEER",
+    "QUIC_CONNECTION_EVENT_SHUTDOWN_COMPLETE",
+    "QUIC_CONNECTION_EVENT_PEER_STREAM_STARTED",
+    "QUIC_CONNECTION_EVENT_RESUMED",
+
+    "QUIC_LISTENER_EVENT_NEW_CONNECTION",
+]
+quic_client = \
+[
+    "QUIC_STREAM_EVENT_SEND_COMPLETE",
+    "QUIC_STREAM_EVENT_RECEIVE",
+    "QUIC_STREAM_EVENT_PEER_SEND_ABORTED",
+    "QUIC_STREAM_EVENT_PEER_SEND_SHUTDOWN",
+    "QUIC_STREAM_EVENT_SHUTDOWN_COMPLETE",
+
+    "QUIC_CONNECTION_EVENT_CONNECTED",
+    "QUIC_CONNECTION_EVENT_SHUTDOWN_INITIATED_BY_TRANSPORT",
+    "QUIC_CONNECTION_EVENT_SHUTDOWN_INITIATED_BY_PEER",
+    "QUIC_CONNECTION_EVENT_SHUTDOWN_COMPLETE",
+    "QUIC_CONNECTION_EVENT_RESUMPTION_TICKET_RECEIVED",
+]
+
+SERVER_MAX_INTERVAL = 3000
+CLIENT_MAX_INTERVAL = 3000
+
+def new_msgid(data):
+    return random.randint(0, len(data) - 1)
+
+def new_interval(maximum):
+    return int(random.random() * maximum)
+
+server_msgid = new_msgid(quic_server)
+client_msgid = new_msgid(quic_client)
+
+server_timer = None
+client_timer = None
+
+def on_server(sender):
+    global quic_server, server_timer, server_msgid
+    print("[INFO]:", "QUIC_SERVER:", quic_server[server_msgid])
+    try:
+        server_mod(server_timer, server_msgid)
+    except Exception as error:
+        print("[WARN]:", "QUIC_SERVER:", error)
+        server_timer.period(1)
+    server_msgid = new_msgid(quic_server)
+    server_timer.period(new_interval(SERVER_MAX_INTERVAL))
+
+def on_client(sender):
+    global quic_client, client_timer, client_msgid
+    print("[INFO]:", "QUIC_CLIENT:", quic_client[client_msgid])
+    try:
+        client_mod(client_timer, client_msgid)
+    except Exception as error:
+        print("[WARN]:", "QUIC_CLIENT:", error)
+        client_timer.period(1)
+    client_msgid = new_msgid(quic_client)
+    client_timer.period(new_interval(CLIENT_MAX_INTERVAL))
+
+def server_blink(interval = 0):
+    pr.duty(100 - (50 + (0.01 * interval)))
+    def server_blink_callback(sender):
+        pr.duty(100 - (0))
+    server_blink_timer = Timer(Timer.TIMER0, Timer.CHANNEL0, mode = Timer.MODE_ONE_SHOT,
+        period = 10, unit = Timer.UNIT_MS, callback = server_blink_callback, start = True, priority = 2)
+
+def client_blink(interval = 0):
+    pb.duty(100 - (50 + (0.01 * interval)))
+    def client_blink_callback(sender):
+        pb.duty(100 - (0))
+    client_blink_timer = Timer(Timer.TIMER1, Timer.CHANNEL1, mode = Timer.MODE_ONE_SHOT,
+        period = 10, unit = Timer.UNIT_MS, callback = client_blink_callback, start = True, priority = 2)
+
+def server_start():
+    global server_timer
+    server_timer = Timer(Timer.TIMER0, Timer.CHANNEL2, mode = Timer.MODE_PERIODIC,
+        period = new_interval(SERVER_MAX_INTERVAL), unit = Timer.UNIT_MS,
+        callback = on_server, arg = new_msgid(quic_server),
+        start = True, priority = 1, div = 0)
+
+def client_start():
+    global client_timer
+    client_timer = Timer(Timer.TIMER1, Timer.CHANNEL3, mode = Timer.MODE_PERIODIC,
+        period = new_interval(CLIENT_MAX_INTERVAL), unit = Timer.UNIT_MS,
+        callback = on_client, arg = new_msgid(quic_client),
+        start = True, priority = 1, div = 0)
+
+def server_stop():
+    global server_timer
+    server_timer.stop()
+
+def client_stop():
+    global client_timer
+    client_timer.stop()
+
+def server_mod(sender, msgid):
+    server_blink(msgid)
+
+def client_mod(sender, msgid):
+    client_blink(msgid)
+
+#server_start()
+#client_start()
+#server_stop()
+#client_stop()
